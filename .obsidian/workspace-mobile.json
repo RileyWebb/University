@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RMIT.md",
-                "mode": "source",
+                "file": "2025 - Semester 1/EEET2276 - Electrical Principles/Notes/Quantities & Units, Ohm’s Law, Energy and Power.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RMIT"
+              "title": "Quantities & Units, Ohm’s Law, Energy and Power"
             }
           }
         ],
@@ -216,11 +216,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5f84185d8d334850",
+  "active": "c825ec41a1ea3ea9",
   "lastOpenFiles": [
+    "2025 - Semester 1/EEET2276 - Electrical Principles/Electrical Principles.md",
+    "RMIT.md",
     "To-Do.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Mathematics 1.md",
-    "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Vector Algebra, Cartesian Coordinate System, Scalar (Dot) Product, Scalar and Vector Projections, Vector (Cross) Product with Applications.md",
-    "RMIT.md"
+    "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Vector Algebra, Cartesian Coordinate System, Scalar (Dot) Product, Scalar and Vector Projections, Vector (Cross) Product with Applications.md"
   ]
 }
