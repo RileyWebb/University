@@ -1,0 +1,47 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiNotebook",
+      "LiBoxes",
+      "LiBox",
+      "LiSettings",
+      "⚙"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
+  },
+  "2025 - Semester 1/MATH2167 - Mathmatics 1": "LiDivide",
+  "To-Do.md": "LiCalendar",
+  "RMIT.md": "LiHome",
+  "2025 - Semester 1/MANU2112 - Engineering Science": "LiBeaker",
+  "2025 - Semester 1/PROC2097 - Engineering Materials": "LiBox",
+  "2025 - Semester 1/PROC2097 - Engineering Materials/Notes": "LiNotebook",
+  "2025 - Semester 1/MANU2112 - Engineering Science/Notes": "LiNotebook",
+  "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes": "LiNotebook",
+  "2025 - Semester 1/EEET2276 - Electrical Principles": "LiSettings",
+  "2025 - Semester 1/EEET2276 - Electrical Principles/Notes": "LiNotebook"
+}
