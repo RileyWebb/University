@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RMIT.md",
+                "file": "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Vector Algebra, Cartesian Coordinate System, Scalar (Dot) Product, Scalar and Vector Projections, Vector (Cross) Product with Applications.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RMIT"
+              "title": "Vector Algebra, Cartesian Coordinate System, Scalar (Dot) Product, Scalar and Vector Projections, Vector (Cross) Product with Applications"
             }
           }
         ]
@@ -112,7 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "RMIT.md",
+            "file": "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Vector Algebra, Cartesian Coordinate System, Scalar (Dot) Product, Scalar and Vector Projections, Vector (Cross) Product with Applications.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "RMIT.md",
+            "file": "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Vector Algebra, Cartesian Coordinate System, Scalar (Dot) Product, Scalar and Vector Projections, Vector (Cross) Product with Applications.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -145,7 +145,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "RMIT.md",
+            "file": "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Vector Algebra, Cartesian Coordinate System, Scalar (Dot) Product, Scalar and Vector Projections, Vector (Cross) Product with Applications.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -187,9 +187,9 @@
   },
   "active": "aa40c11cb3f6aa00",
   "lastOpenFiles": [
+    "RMIT.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Vector Algebra, Cartesian Coordinate System, Scalar (Dot) Product, Scalar and Vector Projections, Vector (Cross) Product with Applications.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Mathematics 1.md",
-    "To-Do.md",
-    "RMIT.md"
+    "To-Do.md"
   ]
 }
