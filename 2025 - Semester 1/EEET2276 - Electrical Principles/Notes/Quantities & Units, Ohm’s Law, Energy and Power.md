@@ -1,4 +1,8 @@
 
+### Tolerances
+to find the resistance boundaries use the formula $R\pm T \cdot R$ where;
+$T$ is the tolerance,
+$R$ is the resistance.
 
 
 
