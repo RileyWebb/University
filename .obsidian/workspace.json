@@ -35,8 +35,7 @@
               "title": "Tutorial 1"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -156,10 +155,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 1.md"
+                "file": "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Vector Algebra, Cartesian Coordinate System, Scalar (Dot) Product, Scalar and Vector Projections, Vector (Cross) Product with Applications.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Tutorial 1"
+              "title": "Outline of Vector Algebra, Cartesian Coordinate System, Scalar (Dot) Product, Scalar and Vector Projections, Vector (Cross) Product with Applications"
             }
           },
           {
@@ -222,10 +221,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a7cf97ea528133c3",
+  "active": "63d57b0dc8aac5bb",
   "lastOpenFiles": [
-    "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Vector Algebra, Cartesian Coordinate System, Scalar (Dot) Product, Scalar and Vector Projections, Vector (Cross) Product with Applications.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 1.md",
+    "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Vector Algebra, Cartesian Coordinate System, Scalar (Dot) Product, Scalar and Vector Projections, Vector (Cross) Product with Applications.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Mathematics 1.md",
     "RMIT.md",
