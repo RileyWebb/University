@@ -24,12 +24,36 @@ $$\dfrac{4}{3}\pi\cdot695500^{3}\approx1.409\cdot10^{18}$$
 
 **Question 6:**
 The surface area of a door is 11 000 cm$^2$ . How many mm$^2$ is that?
-$$11000\cdot10^1=1.1\cdot10^{5}$$
+$$11000\cdot10^1=1.1\cdot10^{6}$$
 
 **Question 7:**
-- **A)** $u$ = 20km/h, $a$ = 8m/s$^2$, $s$ = 685mm. What is $V$?$$V=\sqrt{\dfrac{20}{3.6}+2\cdot8\cdot0.685}\approx 4.06393$$
+- **A)** $u$ = 20km/h, $a$ = 8m/s$^2$, $s$ = 685mm. What is $V$? **WRONG**$$V=\sqrt{\dfrac{20}{3.6}+2\cdot8\cdot0.685}\approx 4.06393$$
 - **B)** $l$ = 893mm, g = 9.8m/s$^2$. What is $T$? $$T=2\pi\sqrt{\dfrac{0.893}{9.8}}\approx 1.89667$$
 - **C)** On an unknown planet a period of oscillation of a simple pendulum with length of 1.0 m is 4.0 s. What is the acceleration due to gravity g on this planet? $$T=2\pi\sqrt{\dfrac{l}{g}}$$ solve for $g$ $$g=\dfrac{4\pi^2l}{T^2}$$ plug in numbers $$g=\dfrac{4\pi^2\cdot 1}{4^2}\approx 2.467$$
 - 
 **Question 8:**
 
+- **A)** 
+
+**Question 9:**
+- **A)** The mass of one casting is 2.5 times the mass of another. if the total mass of the two casting is 16.7 kg, find the mass of the lighter casting. $$16.7=2.5\cdot x + x$$ then $$x \approx 4.77143$$
+- **B)** It is known that resistor R$_2$ is 18.7$\ohm$ greater than resistor R$_1$. The two resistors in series have a resistance of $R_1 + R_2 = 56.3\ohm$. Find the value of $R_1$, by setting up a single equation containing $R_1$. **WRONG**$$R_1=56.3-18.7 = 37.6\ohm$$
+- **C)** A machine can produce article $A$ in 12 minutes or article $B$ in 16 minutes. If it is planned to produce twice as many of $A$ as $B$ in a working week of 40 hours, how many of each will be produced, assuming that the machine works non-stop? **WRONG**
+  for $A$$$\dfrac{60}{12}\cdot40=200$$
+  for $B$ $$\dfrac{200}{2}=100$$
+**Question 10:** **WRONG**
+- **A**
+	1.  $W = 0.0055\cdot 9.81\cdot 0.875 \approx 0.04721$
+	2. $\dfrac{W}{mg}=h$
+	3. $\dfrac{27.5\cdot 10^6}{6.65\cdot10^{3}\cdot9.81} \approx 421.543$
+- **B**
+	1. $e=(3.5\cdot10^{-6})(6.8\cdot10^{3})+\dfrac{1.65\cdot10^{-6}}{75\cdot10^{-6}}\approx 0.0238$
+	2. $C=\dfrac{Q}{iR-e}$
+	3. $C=\dfrac{1.5\cdot10^{-3}}{(645\cdot10^{-3})\cdot4.7-5.35}\approx -0.0006469$ 
+
+**Question 11:**
+
+**Question 12:**
+A cyclist travels in a straight line according to $x(t)=(-7-6t+t^2)$m, where t is in seconds.
+- **A)** $x=0 \therefore t= $ 
+- **B)** $x(0)= -7-6\cdot0+0^2=-7$
