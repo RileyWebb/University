@@ -1,4 +1,4 @@
-[Canvas](https://rmit.instructure.com/courses/143086)
+[Canvas](https://rmit.instructure.com/courses/143071)
 
 | **Week 1**   | [[Overview of units, measurements, and algebraic expressions]]                                                                            |
 | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------- |

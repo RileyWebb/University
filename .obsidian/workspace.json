@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Vector Algebra, Cartesian Coordinate System, Scalar (Dot) Product, Scalar and Vector Projections, Vector (Cross) Product with Applications.md",
+                "file": "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vector Algebra, Cartesian Coordinate System, Scalar (Dot) Product, Scalar and Vector Projections, Vector (Cross) Product with Applications"
+              "title": "Tutorial 1"
             }
           },
           {
@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 1.md",
+                "file": "2025 - Semester 1/MANU2112 - Engineering Science/Engineering Science.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tutorial 1"
+              "title": "Engineering Science"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -156,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 1.md"
+                "file": "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 1.md"
               },
               "icon": "lucide-list",
               "title": "Outline of Tutorial 1"
@@ -222,14 +221,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a7cf97ea528133c3",
+  "active": "63d57b0dc8aac5bb",
   "lastOpenFiles": [
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Vector Algebra, Cartesian Coordinate System, Scalar (Dot) Product, Scalar and Vector Projections, Vector (Cross) Product with Applications.md",
+    "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 1.md",
+    "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Introductory Tutorial Problems-1.pdf",
+    "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial",
+    "2025 - Semester 1/MANU2112 - Engineering Science/Assignments",
+    "2025 - Semester 1/MANU2112 - Engineering Science/Engineering Science.md",
+    "2025 - Semester 1/MANU2112 - Engineering Science/Notes/Overview of units, measurements, and algebraic expressions.md",
+    "RMIT.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 1.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Excercise Booklet Tutorial 1.pdf",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Mathematics 1.md",
-    "RMIT.md",
     "2025 - Semester 1/EEET2276 - Electrical Principles/Notes/Quantities & Units, Ohm’s Law, Energy and Power.md",
     "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/Tutorial 02.md",
     "2025 - Semester 1/EEET2276 - Electrical Principles/Electrical Principles.md",
@@ -241,10 +246,6 @@
     "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/~WRL3992.tmp",
     "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/~WRD3977.tmp",
     "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/~$Tut 01.doc",
-    "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/Tut 01.doc",
-    "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial",
-    "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments",
-    "2025 - Semester 1/MANU2112 - Engineering Science/Engineering Science.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Resources/IMG_0475.png",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Resources/IMG_0476.png",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Implicit Differentiation, Logarithmic Differentiation, Derivative of Inverse Trigonometric Functions, Hyperbolic Functions.md",
@@ -262,7 +263,6 @@
     "2025 - Semester 1/MANU2112 - Engineering Science/Notes/Conservation of energy.md",
     "2025 - Semester 1/MANU2112 - Engineering Science/Notes/Work and energy, Kinetic and potential energy.md",
     "2025 - Semester 1/MANU2112 - Engineering Science/Notes/Supports and Reactions, Moments and Couples, Torque.md",
-    "2025 - Semester 1/MANU2112 - Engineering Science/Notes/Equilibrium of forces, Force systems & Free-body diagrams.md",
-    "2025 - Semester 1/MANU2112 - Engineering Science/Notes/Application of Newton’s laws to circular motion.md"
+    "2025 - Semester 1/MANU2112 - Engineering Science/Notes/Equilibrium of forces, Force systems & Free-body diagrams.md"
   ]
 }
