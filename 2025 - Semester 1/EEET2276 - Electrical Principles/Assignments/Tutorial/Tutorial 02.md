@@ -35,6 +35,9 @@ A system with an input power of 70 watts and an output power of 25 watts has an 
 **Question 10:**
 How many joules of energy will a 15 watts lamp dissipates in one hr?
 
+**Question 11:**
+If a voltage in a circuit changes from 4 V to 8 V and the current in the same circuit changes from 3 mA to 5 mA, the resistance of the circuit is $I=\dfrac{4}{3\cdot 10^{-3}}=\dfrac{8}{5\cdot 10^{-3}}$ *REDO BITCH*
+
 
 
 
