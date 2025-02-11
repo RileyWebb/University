@@ -10,7 +10,7 @@
 
 $R<i,j>$ - A vector from the origin, equivalent to $\vec{OR}$
 $\underset{\sim}{a}$ or $\textbf{a}$ - Vector $a$
-$\vec{AB}$ - From point **A** to **B**
+$\vec{AB}$ - Vector from point **A** to **B**
 $|\underset{\sim}{a}|$ or $d(AB)$ or $|\vec{AB}|$ - Magnitude of vector **A** to **B** 
 $\hat{\underset{\sim}{a}}$ - Unit vector
 $\underset{\sim}{i}$, $\underset{\sim}{j}$ - $x$ and $y$ axis unit vectors respectively
