@@ -35,7 +35,8 @@
               "title": "Tutorial 1"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -155,10 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Vector Algebra, Cartesian Coordinate System, Scalar (Dot) Product, Scalar and Vector Projections, Vector (Cross) Product with Applications.md"
+                "file": "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 1.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Vector Algebra, Cartesian Coordinate System, Scalar (Dot) Product, Scalar and Vector Projections, Vector (Cross) Product with Applications"
+              "title": "Outline of Tutorial 1"
             }
           },
           {
@@ -221,10 +222,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "63d57b0dc8aac5bb",
+  "active": "a7cf97ea528133c3",
   "lastOpenFiles": [
-    "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 1.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Vector Algebra, Cartesian Coordinate System, Scalar (Dot) Product, Scalar and Vector Projections, Vector (Cross) Product with Applications.md",
+    "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 1.md",
+    "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Excercise Booklet Tutorial 1.pdf",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Mathematics 1.md",
     "RMIT.md",
@@ -242,7 +244,6 @@
     "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/Tut 01.doc",
     "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial",
     "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments",
-    "New Text Document.txt",
     "2025 - Semester 1/MANU2112 - Engineering Science/Engineering Science.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Resources/IMG_0475.png",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Resources/IMG_0476.png",
@@ -262,7 +263,6 @@
     "2025 - Semester 1/MANU2112 - Engineering Science/Notes/Work and energy, Kinetic and potential energy.md",
     "2025 - Semester 1/MANU2112 - Engineering Science/Notes/Supports and Reactions, Moments and Couples, Torque.md",
     "2025 - Semester 1/MANU2112 - Engineering Science/Notes/Equilibrium of forces, Force systems & Free-body diagrams.md",
-    "2025 - Semester 1/MANU2112 - Engineering Science/Notes/Application of Newton’s laws to circular motion.md",
-    "2025 - Semester 1/MANU2112 - Engineering Science/Notes/Newton's law of motion, Force of friction, Static and kinetic friction.md"
+    "2025 - Semester 1/MANU2112 - Engineering Science/Notes/Application of Newton’s laws to circular motion.md"
   ]
 }
