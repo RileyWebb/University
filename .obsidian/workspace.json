@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 2.md",
+                "file": "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tutorial 2"
+              "title": "Tutorial 1"
             }
           },
           {
@@ -63,8 +63,7 @@
               "title": "Quantities & Units, Ohm’s Law, Energy and Power"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -250,15 +249,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fa938fc0f18913d5",
+  "active": "63d57b0dc8aac5bb",
   "lastOpenFiles": [
+    "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Practice Tutorial 1.pdf",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 2.md",
+    "RMIT.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Excercise Booklet Tutorial 2.pdf",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 1.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Vector Algebra, Cartesian Coordinate System, Scalar (Dot) Product, Scalar and Vector Projections, Vector (Cross) Product with Applications.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Mathematics 1.md",
     "2025 - Semester 1/MANU2112 - Engineering Science/Engineering Science.md",
-    "RMIT.md",
     "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 1.md",
     "2025 - Semester 1/EEET2276 - Electrical Principles/Notes/Quantities & Units, Ohm’s Law, Energy and Power.md",
     "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Introductory Tutorial Problems-1.pdf",

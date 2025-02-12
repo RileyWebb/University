@@ -22,3 +22,15 @@
 
 **Question 5:**
 - **A)** $\dfrac{-3i+5j-2k}{\sqrt{(-3)^2+5^2+(-2)^2}}=\dfrac{-3i+5j-2k}{\sqrt{38}}$
+
+[[Practice Tutorial 1.pdf]]
+
+**Question 1:**
+- **A)** $(2i+4k) +(-35i-30j-30k)$ then $33i-30j-26k$
+- **B)** $(i+2k)\cdot(7i+6j+6k)$ then $7+0+12=19$
+- **C)** $\cos(\theta) = \dfrac{a\cdot b}{|a||b|}$ 
+	- find $|a|$  $\sqrt{1^2+0^2+2^2} = \sqrt{6}$
+	- find $|b|$ $\sqrt{7^2+6^2+6^2}=11$
+	- meaning $\theta = \cos^{-1}(\dfrac{19}{11\sqrt{6}})\approx SOMETHING$
+- **D)** cross product$$\vec{a}\times\vec{b} = \begin{bmatrix} i& j & k \\ 2 & 3 & 6 \\ 3 & 4 & 5\end{bmatrix} = i\begin{bmatrix} 3 & 6 \\ 4 & 5\end{bmatrix}-j\begin{bmatrix}2&6\\3&5\end{bmatrix} + k\begin{bmatrix}2&3\\3&4\end{bmatrix}$$
+$$i((3)(5)-(6)(4))-j((2)(5)-(3)(6))+k((2)(4)-(3)(3)) = -9i-8j-k$$
