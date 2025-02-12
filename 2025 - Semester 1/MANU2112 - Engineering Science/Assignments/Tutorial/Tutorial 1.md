@@ -54,6 +54,6 @@ $$11000\cdot10^1=1.1\cdot10^{6}$$
 **Question 11:**
 
 **Question 12:**
-A cyclist travels in a straight line according to $x(t)=(-7-6t+t^2)$m, where t is in seconds.
-- **A)** $x=0 \therefore t= $ 
+A cyclist travels in a straight line according to $x(t)=(-7-6t+t^2)$, where t is in seconds.
+- **A)** $x=0 \therefore \dfrac{6\pm \sqrt{(-6)^2-4\cdot -7 \cdot 1}}{2\cdot -7}$ 
 - **B)** $x(0)= -7-6\cdot0+0^2=-7$

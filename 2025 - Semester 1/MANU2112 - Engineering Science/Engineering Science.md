@@ -17,3 +17,7 @@
 | **Week 14**  | [[Mechanical and electromagnetic waves, Electromagnetic spectrum]]                                                                        |
 | **Week 15-** | [[2025 - Semester 1/MANU2112 - Engineering Science/Notes/Revision\|Revision]]                                                             |
 
+## Notes
+
+- [[2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 1|Tutorial 1]]
+- 
