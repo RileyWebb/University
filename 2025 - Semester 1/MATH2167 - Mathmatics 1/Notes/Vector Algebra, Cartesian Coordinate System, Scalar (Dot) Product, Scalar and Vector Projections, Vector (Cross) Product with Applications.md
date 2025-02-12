@@ -15,7 +15,10 @@ $|\underset{\sim}{a}|$ or $d(AB)$ or $|\vec{AB}|$ - Magnitude of vector **A** to
 $\hat{\underset{\sim}{a}}$ - Unit vector
 $\underset{\sim}{i}$, $\underset{\sim}{j}$ - $x$ and $y$ axis unit vectors respectively
 $\vec{AB}+\vec{BA}=\vec{AA}=\underset{\sim}{O}$ - Zero vector
+$\alpha$ is for the x-axis, $\beta$ is for the y-axis, $\gamma$ is for the z-axis
 
+## Vector normalisation:
+$\dfrac{\vec{AB}}{|\vec{AB}|} = A_{\text{norm}}$
 
 
 
