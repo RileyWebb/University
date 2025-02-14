@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 1.md",
+                "file": "2025 - Semester 1/PROC2097 - Engineering Materials/Assignments/Tutorial 1.md",
                 "mode": "source",
                 "source": false
               },
@@ -33,24 +33,6 @@
               },
               "icon": "lucide-file",
               "title": "Quantities & Units, Ohm’s Law, Energy and Power"
-            }
-          }
-        ]
-      },
-      {
-        "id": "3189857012e9effe",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a7cf97ea528133c3",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Introductory Tutorial Problems-1.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Introductory Tutorial Problems-1"
             }
           }
         ]
@@ -241,11 +223,16 @@
   },
   "active": "63d57b0dc8aac5bb",
   "lastOpenFiles": [
-    "2025 - Semester 1/EEET2276 - Electrical Principles/Notes/Quantities & Units, Ohm’s Law, Energy and Power.md",
+    "2025 - Semester 1/PROC2097 - Engineering Materials/Engineering Materials.md",
+    "2025 - Semester 1/PROC2097 - Engineering Materials/Assignments/Tutorial 1.md",
+    "2025 - Semester 1/PROC2097 - Engineering Materials/Assignments/PROC_2097_Tute-1_SP-3.pdf",
+    "2025 - Semester 1/PROC2097 - Engineering Materials/Assignments",
+    "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Concepts of engineering materials.md",
+    "RMIT.md",
     "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 1.md",
+    "2025 - Semester 1/EEET2276 - Electrical Principles/Notes/Quantities & Units, Ohm’s Law, Energy and Power.md",
     "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Introductory Tutorial Problems-1.pdf",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Vector Algebra, Cartesian Coordinate System, Scalar (Dot) Product, Scalar and Vector Projections, Vector (Cross) Product with Applications.md",
-    "RMIT.md",
     "2025 - Semester 1/MANU2112 - Engineering Science/Engineering Science.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Mathematics 1.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 1.md",
@@ -261,10 +248,8 @@
     "2025 - Semester 1/EEET2276 - Electrical Principles/Electrical Principles.md",
     "2025 - Semester 1/EEET2276 - Electrical Principles/Resources",
     "2025 - Semester 1/EEET2276 - Electrical Principles/Resources/Pasted image 20250211120748.png",
-    "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/Tut 02-a-2.pdf",
     "Pasted image 20250211113912.png",
     "Pasted image 20250211120426.png",
-    "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/~WRL3992.tmp",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Resources/IMG_0475.png",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Resources/IMG_0476.png",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Implicit Differentiation, Logarithmic Differentiation, Derivative of Inverse Trigonometric Functions, Hyperbolic Functions.md",
@@ -278,8 +263,6 @@
     "2025 - Semester 1/MANU2112 - Engineering Science/Notes/Wave motion, Characteristics of Sound.md",
     "2025 - Semester 1/MANU2112 - Engineering Science/Notes/Momentum and collisions, Conservation of momentum, Rocket propulsion.md",
     "2025 - Semester 1/MANU2112 - Engineering Science/Notes/Lab Experiment.md",
-    "2025 - Semester 1/MANU2112 - Engineering Science/Notes/Rotational dynamics - Moment of inertia.md",
-    "2025 - Semester 1/MANU2112 - Engineering Science/Notes/Conservation of energy.md",
-    "2025 - Semester 1/MANU2112 - Engineering Science/Notes/Work and energy, Kinetic and potential energy.md"
+    "2025 - Semester 1/MANU2112 - Engineering Science/Notes/Rotational dynamics - Moment of inertia.md"
   ]
 }
