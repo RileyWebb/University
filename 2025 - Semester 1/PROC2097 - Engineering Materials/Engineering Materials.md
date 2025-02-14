@@ -1,4 +1,14 @@
-[Canvas](https://rmit.instructure.com/courses/143097)
+# Quick links
+---
+
+- [Canvas](https://rmit.instructure.com/courses/143097)
+
+# Topics
+---
+
+[[Concepts of engineering materials#Types of material properties|Types of material properties]]
+# Notes
+---
 
 | **Week 1**     | [[Concepts of engineering materials]]                                           |
 | -------------- | ------------------------------------------------------------------------------- |
@@ -15,3 +25,8 @@
 | **Week 14**    | [[Materials for electric and electronics devices]]                              |
 | **Week 15-**   | [[2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Revision\|Revision]] |
 
+# Assignments
+---
+
+**Tutorials:**
+- [[2025 - Semester 1/PROC2097 - Engineering Materials/Assignments/Tutorial 1|Tutorial 1]]
