@@ -60,6 +60,10 @@ $\vec{a}\times\vec{b} = \begin{bmatrix} i& j & k \\ a_{1} & a_{2} & a_{3} \\ b_{
   \draw[<->] (-4,0)--(4,0) node[right]{$x$};
   \draw[<->] (0,-4)--(0,4) node[above]{$y$};
 \draw[line width=2pt,cyan,-stealth][->](0,0) -- (2,-3);
+
 \end{tikzpicture}
 \end{document}
 ```
+
+
+$R=R_{0}+t\vec{v}$
