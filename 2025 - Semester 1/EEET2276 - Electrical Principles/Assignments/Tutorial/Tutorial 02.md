@@ -56,4 +56,21 @@ $(\frac{10}{4000})^2\cdot(4000)= \frac{1}{40}$
 
 **Question 17:**
 
+**Question 18:**
+power of 4
 
+**Question 19:**
+Large-value resistors dissipate more power than small-value resistors
+
+**Question 20:**
+
+
+**Question 21:**
+$\frac{1}{\frac{1}{2.2}\cdot\frac{1}{6.8}}= \mathrm{R_{t}} = 14.96\mathrm{k\ohm}$
+
+
+**Question 22:**
+$\frac{10}{14960}= \frac{1}{1496}$
+
+**Question 23:**
+${\frac{1}{(\frac{1}{2.2})\cdot}$
