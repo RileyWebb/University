@@ -173,10 +173,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 2.md"
+                "file": "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/Tutorial 02.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Tutorial 2"
+              "title": "Outline of Tutorial 02"
             }
           },
           {
@@ -194,16 +194,6 @@
             }
           },
           {
-            "id": "a7aa7ed9ec97a3bb",
-            "type": "leaf",
-            "state": {
-              "type": "planner-timeline",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Timeline"
-            }
-          },
-          {
             "id": "7f067f292dcc9c78",
             "type": "leaf",
             "state": {
@@ -214,7 +204,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -239,7 +229,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "af25924658e655ad",
+  "active": "63d57b0dc8aac5bb",
   "lastOpenFiles": [
     "2025 - Semester 1/EEET2276 - Electrical Principles/Resources/Introductory Circuit Analysis (10th Edition).pdf",
     "2025 - Semester 1/EEET2276 - Electrical Principles/Notes/Quantities & Units, Ohm’s Law, Energy and Power.md",

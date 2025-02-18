@@ -74,3 +74,7 @@ $\frac{10}{14960}= \frac{1}{1496}$
 
 **Question 23:**
 ${\frac{1}{(\frac{1}{2.2})\cdot}$
+
+**Question 26:**
+$\mathbf{R3} = \frac{1}{\left( \frac{1}{820} \right) + \left( \frac{1}{560} \right)}= 332.7\ohm$
+$\mathbf{R6}=\frac{1}{\left( \frac{1}{2200} \right)+\left( \frac{1}{1500} \right)}= 891.9\ohm$
