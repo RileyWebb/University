@@ -11,5 +11,6 @@
   "templater-obsidian",
   "dataview",
   "obsidian-latex-suite",
-  "calctex"
+  "calctex",
+  "obsidian-tikzjax"
 ]

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/Tutorial 02.md",
+                "file": "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tutorial 02"
+              "title": "Tutorial 1"
             }
           },
           {
@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025 - Semester 1/EEET2276 - Electrical Principles/Notes/Quantities & Units, Ohm’s Law, Energy and Power.md",
+                "file": "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Vector Algebra, Cartesian Coordinate System, Scalar (Dot) Product, Scalar and Vector Projections, Vector (Cross) Product with Applications.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Quantities & Units, Ohm’s Law, Energy and Power"
+              "title": "Vector Algebra, Cartesian Coordinate System, Scalar (Dot) Product, Scalar and Vector Projections, Vector (Cross) Product with Applications"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "63a1b9e62a826220",
@@ -52,8 +53,21 @@
               "icon": "lucide-file-text",
               "title": "Tut 02-a-2"
             }
+          },
+          {
+            "id": "441e6623c957d483",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Excercise Booklet Tutorial 2.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Excercise Booklet Tutorial 2"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -173,10 +187,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/Tutorial 02.md"
+                "file": "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Vector Algebra, Cartesian Coordinate System, Scalar (Dot) Product, Scalar and Vector Projections, Vector (Cross) Product with Applications.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Tutorial 02"
+              "title": "Outline of Vector Algebra, Cartesian Coordinate System, Scalar (Dot) Product, Scalar and Vector Projections, Vector (Cross) Product with Applications"
             }
           },
           {
@@ -229,11 +243,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "63d57b0dc8aac5bb",
+  "active": "edf7456732913961",
   "lastOpenFiles": [
-    "2025 - Semester 1/EEET2276 - Electrical Principles/Resources/Introductory Circuit Analysis (10th Edition).pdf",
+    "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Roots of Complex Numbers, solving equations, the conjugate root theorem, and solution of equations involving complex numbers.md",
+    "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Vector Algebra, Cartesian Coordinate System, Scalar (Dot) Product, Scalar and Vector Projections, Vector (Cross) Product with Applications.md",
+    "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 1.md",
+    "2025 - Semester 1/MATH2167 - Mathmatics 1/Mathematics 1.md",
+    "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 2.md",
     "2025 - Semester 1/EEET2276 - Electrical Principles/Notes/Quantities & Units, Ohm’s Law, Energy and Power.md",
+    "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Excercise Booklet Tutorial 2.pdf",
     "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/Tutorial 02.md",
+    "2025 - Semester 1/EEET2276 - Electrical Principles/Resources/Introductory Circuit Analysis (10th Edition).pdf",
     "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/Tut 02-a-2.pdf",
     "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/~WRD3903.tmp",
     "2025 - Semester 1/EEET2276 - Electrical Principles/Electrical Principles.md",
@@ -243,21 +263,15 @@
     "2025 - Semester 1/PROC2097 - Engineering Materials/Engineering Materials.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Concepts of engineering materials.md",
     "Concepts.md",
-    "2025 - Semester 1/MATH2167 - Mathmatics 1/Mathematics 1.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Assignments/PROC_2097_Tute-1_SP-3.pdf",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Assignments",
     "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 1.md",
     "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Introductory Tutorial Problems-1.pdf",
-    "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Vector Algebra, Cartesian Coordinate System, Scalar (Dot) Product, Scalar and Vector Projections, Vector (Cross) Product with Applications.md",
     "2025 - Semester 1/MANU2112 - Engineering Science/Engineering Science.md",
-    "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 1.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Practice Tutorial 1.pdf",
-    "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 2.md",
-    "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Excercise Booklet Tutorial 2.pdf",
     "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial",
     "2025 - Semester 1/MANU2112 - Engineering Science/Assignments",
     "2025 - Semester 1/MANU2112 - Engineering Science/Notes/Overview of units, measurements, and algebraic expressions.md",
-    "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Excercise Booklet Tutorial 1.pdf",
     "2025 - Semester 1/EEET2276 - Electrical Principles/Resources/Pasted image 20250211120748.png",
     "Pasted image 20250211113912.png",
     "Pasted image 20250211120426.png",
@@ -266,7 +280,6 @@
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Implicit Differentiation, Logarithmic Differentiation, Derivative of Inverse Trigonometric Functions, Hyperbolic Functions.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Differentiation by first principles, Differentiation of polynomials, Trigonometric, Exponential & Logarithmic functions, Basic rules of Differentiation.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Numerical Integration, Trapezoidal Rule, Simpson’s 1-3rd Rule.md",
-    "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Roots of Complex Numbers, solving equations, the conjugate root theorem, and solution of equations involving complex numbers.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Multiplication and division of complex numbers in Cartesian and polar forms, Powers of Complex Numbers, De Moivre’s theorem.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Lines and Planes in Three-Dimensional Space, Intersections and Angles between lines and planes.md",
     "2025 - Semester 1/MANU2112 - Engineering Science/Notes/Revision.md",
