@@ -20,4 +20,4 @@
 ## Notes
 
 - [[2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 1|Tutorial 1]]
-- 
+- [[2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 2|Tutorial 2]]
