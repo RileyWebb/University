@@ -30,5 +30,8 @@
 	 express in Cartesian form:
 	 $\frac{x-2}{3}=\frac{y+3}{5}=\frac{z-4}{-6}=t$
 	 
-	 
+**Question 3:**
+Convert Cartesian equation to Parametric equation, then use the cross product to find $\theta$. To find if they intersect solve for $t$ and $s$ with the $x$ and $y$ components, after put the values into $z$ and see if they are equal.
+
+
 	 

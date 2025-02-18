@@ -35,7 +35,8 @@
               "title": "Vector Algebra, Cartesian Coordinate System, Scalar (Dot) Product, Scalar and Vector Projections, Vector (Cross) Product with Applications"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "63a1b9e62a826220",
@@ -186,10 +187,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 2.md"
+                "file": "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Vector Algebra, Cartesian Coordinate System, Scalar (Dot) Product, Scalar and Vector Projections, Vector (Cross) Product with Applications.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Tutorial 2"
+              "title": "Outline of Vector Algebra, Cartesian Coordinate System, Scalar (Dot) Product, Scalar and Vector Projections, Vector (Cross) Product with Applications"
             }
           },
           {
@@ -242,10 +243,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "63d57b0dc8aac5bb",
+  "active": "edf7456732913961",
   "lastOpenFiles": [
-    "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Vector Algebra, Cartesian Coordinate System, Scalar (Dot) Product, Scalar and Vector Projections, Vector (Cross) Product with Applications.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 2.md",
+    "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Vector Algebra, Cartesian Coordinate System, Scalar (Dot) Product, Scalar and Vector Projections, Vector (Cross) Product with Applications.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 1.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Roots of Complex Numbers, solving equations, the conjugate root theorem, and solution of equations involving complex numbers.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Mathematics 1.md",
