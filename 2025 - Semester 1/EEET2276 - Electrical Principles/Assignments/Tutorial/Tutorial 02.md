@@ -36,9 +36,24 @@ A system with an input power of 70 watts and an output power of 25 watts has an 
 How many joules of energy will a 15 watts lamp dissipates in one hr?
 
 **Question 11:**
-If a voltage in a circuit changes from 4 V to 8 V and the current in the same circuit changes from 3 mA to 5 mA, the resistance of the circuit is $I=\dfrac{4}{3\cdot 10^{-3}}=\dfrac{8}{5\cdot 10^{-3}}$ *REDO BITCH*
+If a voltage in a circuit changes from 4 V to 8 V and the current in the same circuit changes from 3 mA to 5 mA, the resistance of the circuit is:
 
+**Question 12:**
+For the circuit shown in Fig 1, the equivalent resistor for this circuit is:
+$1.2+2.2+1=4.4\text{k}\ohm$
 
+**Question 13**
+For the same circuit shown in Fig 1, the total current flowing from the battery equals to: $\frac{10}{4.4\cdot10^3}=2.27\text{mAmp}$
 
+**Question 14:**
+For the same circuit shown in Fig 1, the total power dissipated in the circuit equals to: $P=(2.27\cdot10^{-3})^2\cdot(4.4\cdot10^3)= 0.02267276\text{W} = 22.7\text{mW}$
+
+**Question 15:**
+
+**Question 16:**
+$\frac{10}{5\cdot10^3}= \frac{1}{500}\text{Amps}$
+$(\frac{10}{4000})^2\cdot(4000)= \frac{1}{40}$
+
+**Question 17:**
 
 
