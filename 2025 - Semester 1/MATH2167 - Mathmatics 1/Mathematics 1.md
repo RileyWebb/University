@@ -20,4 +20,4 @@
 ## Notes
 
 - [[2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 1|Tutorial 1]]
-- [[2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 2]]
+- [[2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 2|Tutorial 2]]
