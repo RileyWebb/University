@@ -39,14 +39,18 @@
             "id": "2f2d1dd984802402",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 3.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Tutorial 3"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "b851cda09d28f52a",
@@ -220,8 +224,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,10 +244,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "627ac827e30fba42",
+  "active": "2f2d1dd984802402",
   "lastOpenFiles": [
-    "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Excercise Booklet Tutorial 3.pdf",
+    "2025 - Semester 1/MANU2112 - Engineering Science/Engineering Science.md",
+    "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 3.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 3.md",
+    "Drawings/Drawing 2025-02-25 15.57.47.excalidraw.md",
+    "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Excercise Booklet Tutorial 3.pdf",
     "To-Do.md",
     "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/Tutorial 2.md",
     "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/Tut 02b.pdf",
@@ -252,7 +258,6 @@
     "RMIT.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Excercise Booklet Tutorial 2.pdf",
     "2025 - Semester 1/EEET2276 - Electrical Principles/Electrical Principles.md",
-    "2025 - Semester 1/MANU2112 - Engineering Science/Engineering Science.md",
     "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 2.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 2.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Mathematics 1.md",
@@ -281,7 +286,6 @@
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Resources/IMG_0475.png",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Resources/IMG_0476.png",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Implicit Differentiation, Logarithmic Differentiation, Derivative of Inverse Trigonometric Functions, Hyperbolic Functions.md",
-    "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Differentiation by first principles, Differentiation of polynomials, Trigonometric, Exponential & Logarithmic functions, Basic rules of Differentiation.md",
-    "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Numerical Integration, Trapezoidal Rule, Simpson’s 1-3rd Rule.md"
+    "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Differentiation by first principles, Differentiation of polynomials, Trigonometric, Exponential & Logarithmic functions, Basic rules of Differentiation.md"
   ]
 }
