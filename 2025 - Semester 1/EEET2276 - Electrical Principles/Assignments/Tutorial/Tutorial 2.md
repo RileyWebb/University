@@ -1,3 +1,5 @@
+[[Tut 02-a-2.pdf]]
+
 **Question 1:**
 The energy expended in moving a charge of 30 coulomb through a potential difference of 0.6 volts is: $30 \cdot 0.6 = 18$.
 
@@ -78,3 +80,17 @@ ${\frac{1}{(\frac{1}{2.2})\cdot}$
 **Question 26:**
 $\mathbf{R3} = \frac{1}{\left( \frac{1}{820} \right) + \left( \frac{1}{560} \right)}= 332.7\ohm$
 $\mathbf{R6}=\frac{1}{\left( \frac{1}{2200} \right)+\left( \frac{1}{1500} \right)}= 891.9\ohm$
+
+[[Tut 02b.pdf]]
+
+## Part B
+
+**Question 1:** $\frac{650}{50}= 13\text{A}$
+**Question 2:** $\frac{645}{2.5\cdot60}= 4.3\text{A}$
+**Question 10:** $40\cdot60= 2400\text{C}$
+**Question 11:** $120\cdot0.75= 90\text{C}$
+**Question 12:** $\frac{ 4600 \cdot 10^{6}}{2 \cdot 10^{-3}}=2.3\cdot10^{12}$
+**Question 13:** $\frac{(21.847\cdot10^{18})\cdot (1.6\cdot10^{-19})}{7}=3.49552\text{A}$
+**Question 14:** $\frac{1\cdot60}{1.6\cdot10^{-19}}=3.75\cdot10^{20}$
+**Question 15:** $\frac{86}{1.2\cdot60}$
+
