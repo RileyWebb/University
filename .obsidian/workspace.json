@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 2.md",
+                "file": "2025 - Semester 1/MANU2112 - Engineering Science/Notes/Linear motion with constant acceleration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tutorial 2"
+              "title": "Linear motion with constant acceleration"
             }
           },
           {
@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 3.md",
+                "file": "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 3.md",
                 "mode": "source",
                 "source": false
               },
@@ -50,22 +50,22 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
-        "id": "b851cda09d28f52a",
+        "id": "af143ed9f34d8bee",
         "type": "tabs",
         "children": [
           {
-            "id": "3376b26c431a5f6c",
+            "id": "7f3c5df75a1649b2",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Excercise Booklet Tutorial 3.pdf"
+                "file": "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial problems 2-1.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Excercise Booklet Tutorial 3"
+              "title": "Tutorial problems 2-1"
             }
           }
         ]
@@ -218,13 +218,24 @@
               "icon": "calendar-with-checkmark",
               "title": "Timeline"
             }
+          },
+          {
+            "id": "219affd0b053f230",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,13 +252,18 @@
       "obsidian-git:Open Git source control": false,
       "obsidian-kanban:Create new board": false,
       "omnisearch:Omnisearch": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2f2d1dd984802402",
+  "active": "627ac827e30fba42",
   "lastOpenFiles": [
-    "2025 - Semester 1/MANU2112 - Engineering Science/Engineering Science.md",
+    "2025 - Semester 1/MANU2112 - Engineering Science/Notes/Linear motion with constant acceleration.md",
     "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 3.md",
+    "2025 - Semester 1/MANU2112 - Engineering Science/Engineering Science.md",
+    "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 2.md",
+    "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial problems 2-1.pdf",
+    "8ab8a329d91fa64ee7d52a84bd6433ba-3514238824.png",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 3.md",
     "Drawings/Drawing 2025-02-25 15.57.47.excalidraw.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Excercise Booklet Tutorial 3.pdf",
@@ -259,7 +275,6 @@
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Excercise Booklet Tutorial 2.pdf",
     "2025 - Semester 1/EEET2276 - Electrical Principles/Electrical Principles.md",
     "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 2.md",
-    "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 2.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Mathematics 1.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Vector Algebra, Cartesian Coordinate System, Scalar (Dot) Product, Scalar and Vector Projections, Vector (Cross) Product with Applications.md",
     "Drawings/Drawing 2025-02-19 18.52.25.excalidraw.md",
@@ -277,15 +292,12 @@
     "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Concepts of engineering materials.md",
     "Concepts.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Assignments/PROC_2097_Tute-1_SP-3.pdf",
-    "2025 - Semester 1/PROC2097 - Engineering Materials/Assignments",
     "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 1.md",
     "2025 - Semester 1/MANU2112 - Engineering Science/Notes/Overview of units, measurements, and algebraic expressions.md",
     "2025 - Semester 1/EEET2276 - Electrical Principles/Resources/Pasted image 20250211120748.png",
     "Pasted image 20250211113912.png",
     "Pasted image 20250211120426.png",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Resources/IMG_0475.png",
-    "2025 - Semester 1/MATH2167 - Mathmatics 1/Resources/IMG_0476.png",
-    "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Implicit Differentiation, Logarithmic Differentiation, Derivative of Inverse Trigonometric Functions, Hyperbolic Functions.md",
-    "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Differentiation by first principles, Differentiation of polynomials, Trigonometric, Exponential & Logarithmic functions, Basic rules of Differentiation.md"
+    "2025 - Semester 1/MATH2167 - Mathmatics 1/Resources/IMG_0476.png"
   ]
 }
