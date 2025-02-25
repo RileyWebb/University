@@ -92,5 +92,8 @@ $\mathbf{R6}=\frac{1}{\left( \frac{1}{2200} \right)+\left( \frac{1}{1500} \right
 **Question 12:** $\frac{ 4600 \cdot 10^{6}}{2 \cdot 10^{-3}}=2.3\cdot10^{12}$
 **Question 13:** $\frac{(21.847\cdot10^{18})\cdot (1.6\cdot10^{-19})}{7}=3.49552\text{A}$
 **Question 14:** $\frac{1\cdot60}{1.6\cdot10^{-19}}=3.75\cdot10^{20}$
-**Question 15:** $\frac{86}{1.2\cdot60}$
+**Question 15:** $\frac{86}{1.2\cdot60}= 1.194\text{A}$ Yes It Will Blow
+**Question 16:** $\frac{(0.784\cdot10^{18}) \cdot (1.6\cdot10^{-19})}{643\cdot10^{-3}}\approx0.195\text{A}$
+
+
 
