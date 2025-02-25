@@ -16,8 +16,8 @@ $t=\dfrac{2\cdot180}{30+50}= 4.5\text{ s}$
 $\dfrac{2\cdot400}{9^2}= 9.876 \text{mps}$
 
 **Question 5:**
-**A)** 2
-**B)** 4
+**A)** 1 & 7
+**B)** 
 
 **Question 6:**
 **A)** 4
