@@ -94,6 +94,9 @@ $\mathbf{R6}=\frac{1}{\left( \frac{1}{2200} \right)+\left( \frac{1}{1500} \right
 **Question 14:** $\frac{1\cdot60}{1.6\cdot10^{-19}}=3.75\cdot10^{20}$
 **Question 15:** $\frac{86}{1.2\cdot60}= 1.194\text{A}$ Yes It Will Blow
 **Question 16:** $\frac{(0.784\cdot10^{18}) \cdot (1.6\cdot10^{-19})}{643\cdot10^{-3}}\approx0.195\text{A}$
+**Question 17:**
+**Question 18:** $\dfrac{96\cdot10^{-3}}{50\cdot10^{18}\cdot c}= 1*10^{-3}\text{V}$
+
 
 
 
