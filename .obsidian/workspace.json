@@ -42,6 +42,18 @@
         "type": "tabs",
         "children": [
           {
+            "id": "9529c8c521922473",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Practice Tutorial 3.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Practice Tutorial 3"
+            }
+          },
+          {
             "id": "627ac827e30fba42",
             "type": "leaf",
             "state": {
@@ -255,9 +267,10 @@
   },
   "active": "b24cf10d9dba978a",
   "lastOpenFiles": [
+    "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Practice Tutorial 3.pdf",
+    "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 3.md",
     "2025 - Semester 1/MANU2112 - Engineering Science/Notes/Linear motion with constant acceleration.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Excercise Booklet Tutorial 3.pdf",
-    "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 3.md",
     "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial problems 2-1.pdf",
     "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 3.md",
     "2025 - Semester 1/MANU2112 - Engineering Science/Engineering Science.md",
@@ -288,7 +301,6 @@
     "2025 - Semester 1/PROC2097 - Engineering Materials/Engineering Materials.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Concepts of engineering materials.md",
     "Concepts.md",
-    "2025 - Semester 1/PROC2097 - Engineering Materials/Assignments/PROC_2097_Tute-1_SP-3.pdf",
     "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 1.md",
     "2025 - Semester 1/MANU2112 - Engineering Science/Notes/Overview of units, measurements, and algebraic expressions.md",
     "2025 - Semester 1/EEET2276 - Electrical Principles/Resources/Pasted image 20250211120748.png",
