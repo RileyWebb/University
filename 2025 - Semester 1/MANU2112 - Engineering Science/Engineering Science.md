@@ -1,4 +1,17 @@
-[Canvas](https://rmit.instructure.com/courses/143071)
+
+
+# Quick links
+---
+
+- [Canvas](https://rmit.instructure.com/courses/143071)
+
+# Topics
+---
+
+- [[Linear motion with constant acceleration#SUVAT Equations|SUVAT Equations]]
+
+# Notes
+---
 
 | **Week 1**   | [[Overview of units, measurements, and algebraic expressions]]                                                                            |
 | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
@@ -17,7 +30,9 @@
 | **Week 14**  | [[Mechanical and electromagnetic waves, Electromagnetic spectrum]]                                                                        |
 | **Week 15-** | [[2025 - Semester 1/MANU2112 - Engineering Science/Notes/Revision\|Revision]]                                                             |
 
-## Notes
+# Assignments
 
+## Tutorials
 - [[2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 1|Tutorial 1]]
 - [[2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 2|Tutorial 2]]
+- [[2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 3|Tutorial 3]]

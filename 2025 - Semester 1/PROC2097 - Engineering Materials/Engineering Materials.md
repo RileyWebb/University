@@ -7,6 +7,7 @@
 ---
 
 [[Concepts of engineering materials#Types of material properties|Types of material properties]]
+
 # Notes
 ---
 
