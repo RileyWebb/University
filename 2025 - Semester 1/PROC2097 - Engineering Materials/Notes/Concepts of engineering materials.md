@@ -16,3 +16,10 @@
 - **Chemical**
 - **Magnetic**
 - **Acoustic**
+
+
+# Stresses and Strains
+
+**Stress:** $\dfrac{F}{A}$
+**Strain:** $\dfrac{\Delta l}{l_{o}}$
+
