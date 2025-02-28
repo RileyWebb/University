@@ -54,7 +54,7 @@ Stainless steel at 11% chromium
         
         % Labels
         \node[right] at (axis cs:0.015,30) {Elastic Region};
-        \node[right] at (axis cs:0.06,80) {Yielding};
+        \node[right] at (axis cs:0.1,80) {Yielding};
         \node[right] at (axis cs:0.15,150) {Strain Hardening};
         \node[above] at (axis cs:0.27,200) {Necking};
     \end{axis}
