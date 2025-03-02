@@ -27,7 +27,9 @@
             "pinned": true,
             "state": {
               "type": "mk-ever-view",
-              "state": {},
+              "state": {
+                "path": "2025 - Semester 1/MANU2112 - Engineering Science"
+              },
               "pinned": true,
               "icon": "columns",
               "title": "Overview"
@@ -251,6 +253,7 @@
   },
   "active": "d701110caaf8bed1",
   "lastOpenFiles": [
+    "2025 - Semester 1/MATH2167 - Mathmatics 1/MATH2167 - Mathmatics 1.md",
     "2025 - Semester 1/MANU2112 - Engineering Science/MANU2112 - Engineering Science.md",
     "Untitled.png",
     "Untitled.png.0.pdnSave",
@@ -288,7 +291,6 @@
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 1.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Roots of Complex Numbers, solving equations, the conjugate root theorem, and solution of equations involving complex numbers.md",
     "2025 - Semester 1/EEET2276 - Electrical Principles/Notes/Quantities & Units, Ohm’s Law, Energy and Power.md",
-    "2025 - Semester 1/EEET2276 - Electrical Principles/Notes/Resistors in Series & Parallel, Simple circuits using KVL and KCL.md",
     "2025 - Semester 1/EEET2276 - Electrical Principles/Resources/Pasted image 20250211120748.png",
     "Pasted image 20250211113912.png",
     "Pasted image 20250211120426.png",

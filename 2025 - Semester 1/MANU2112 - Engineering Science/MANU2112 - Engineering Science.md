@@ -1,3 +1,3 @@
 ---
-sticker: lucide//remove-formatting
+sticker: lucide//beaker
 ---
