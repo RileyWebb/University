@@ -36,6 +36,30 @@
             }
           },
           {
+            "id": "d4b9e3b52e445b8d",
+            "type": "leaf",
+            "state": {
+              "type": "mk-uri-view",
+              "state": {
+                "path": "https://www.make.md/static/latest.md"
+              },
+              "icon": "lucide-file",
+              "title": "https://www.make.md/static/latest.md"
+            }
+          },
+          {
+            "id": "66f9131286918b65",
+            "type": "leaf",
+            "state": {
+              "type": "mk-uri-view",
+              "state": {
+                "path": "https://www.make.md/static/GetStarted.md"
+              },
+              "icon": "lucide-file",
+              "title": "https://www.make.md/static/GetStarted.md"
+            }
+          },
+          {
             "id": "04f56b350ae73016",
             "type": "leaf",
             "state": {
@@ -64,7 +88,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -116,8 +140,19 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "2202586d9dd4b852",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -252,12 +287,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "32239127af6f46a6",
+  "active": "66f9131286918b65",
   "lastOpenFiles": [
+    "Tags",
+    "README.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Engineering Materials.md",
     "Drawings/Drawing 2025-02-19 18.48.28.excalidraw.md",
     "Drawings/Drawing 2025-02-19 18.52.25.excalidraw.md",
-    "README.md",
     "To-Do.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Iron and steel and heat treatment.md",
     "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 3.md",
