@@ -3,17 +3,15 @@
   "editing-toolbar",
   "obsidian-excalidraw-plugin",
   "highlightr-plugin",
-  "homepage",
   "obsidian-git",
   "obsidian-icon-folder",
   "obsidian-kanban",
   "omnisearch",
-  "templater-obsidian",
   "dataview",
   "obsidian-latex-suite",
   "calctex",
   "obsidian-tikzjax",
   "table-editor-obsidian",
-  "quickadd",
-  "make-md"
+  "make-md",
+  "copilot"
 ]
