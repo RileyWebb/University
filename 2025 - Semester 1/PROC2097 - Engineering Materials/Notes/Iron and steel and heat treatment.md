@@ -10,6 +10,50 @@
 - Steel (between 0.25-2% carbon content)
 - Wrought Iron (less than 0.25% carbon content)
 
+**Annealing:**
+
+```tikz
+\usepackage{pgfplots}
+\begin{document}
+
+\begin{tikzpicture}
+    \begin{axis}[
+        axis lines=middle,
+        xlabel={Time (s)},
+        ylabel={Temperature (°C)},
+        xmin=0, xmax=12,
+        ymin=0, ymax=1000,
+        xtick={0,2,4,6,8,10,12},
+        ytick={0,200,400,600,800,1000},
+        grid=major,
+        samples=100,
+        domain=0:12
+    ]
+        % Full Annealing
+        \addplot[blue, thick] coordinates {
+            (0, 25) (2, 900) (4, 900) (6, 500) (8, 300) (10, 25)
+        };
+        
+        % Partial Annealing
+        \addplot[red, thick, dashed] coordinates {
+            (0, 25) (2, 750) (4, 750) (6, 500) (8, 300) (10, 25)
+        };
+        
+        % Subcritical Annealing
+        \addplot[green, thick, dotted] coordinates {
+            (0, 25) (2, 600) (4, 600) (6, 500) (8, 300) (10, 25)
+        };
+        
+        % Labels
+        \node[above] at (axis cs:2,900) {Full Annealing};
+        \node[above] at (axis cs:2,750) {Partial Annealing};
+        \node[above] at (axis cs:2,600) {Subcritical Annealing};
+    \end{axis}
+\end{tikzpicture}
+
+\end{document}
+```
+
 curie point
 
 ```
@@ -58,7 +102,7 @@ curie point
 
 
 
-```tikz
+```
 
 \usepackage{pgfplots}
 %\pgfplotsset{compat=1.18}

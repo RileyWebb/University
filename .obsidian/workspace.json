@@ -63,7 +63,8 @@
               "title": "Linear motion with constant acceleration"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -251,10 +252,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b24cf10d9dba978a",
+  "active": "32239127af6f46a6",
   "lastOpenFiles": [
-    "RMIT.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Iron and steel and heat treatment.md",
+    "RMIT.md",
     "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 3.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 3.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 2.md",
