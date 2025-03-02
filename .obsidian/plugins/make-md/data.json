@@ -35,7 +35,8 @@
   "showRibbon": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "/"
+    "/",
+    "//2025 - Semester 1"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
