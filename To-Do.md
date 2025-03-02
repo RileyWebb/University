@@ -6,16 +6,16 @@ kanban-plugin: board
 
 ## Backburner
 
-- [ ] talk to student services about learning difficulty arrangements
 
 
 ## Active
 
-- [ ] Complete "Math Ready" test on Campus
 
 
 ## Complete
 
+- [ ] Complete "Math Ready" test on Canvas
+- [ ] talk to student services about learning difficulty arrangements
 
 
 

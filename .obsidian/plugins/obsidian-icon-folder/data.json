@@ -36,12 +36,12 @@
   },
   "2025 - Semester 1/MATH2167 - Mathmatics 1": "LiDivide",
   "To-Do.md": "LiCalendar",
-  "RMIT.md": "LiHome",
   "2025 - Semester 1/MANU2112 - Engineering Science": "LiBeaker",
   "2025 - Semester 1/PROC2097 - Engineering Materials": "LiBox",
   "2025 - Semester 1/PROC2097 - Engineering Materials/Notes": "LiNotebook",
   "2025 - Semester 1/MANU2112 - Engineering Science/Notes": "LiNotebook",
   "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes": "LiNotebook",
   "2025 - Semester 1/EEET2276 - Electrical Principles": "LiSettings",
-  "2025 - Semester 1/EEET2276 - Electrical Principles/Notes": "LiNotebook"
+  "2025 - Semester 1/EEET2276 - Electrical Principles/Notes": "LiNotebook",
+  "README.md": "LiHome"
 }
