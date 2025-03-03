@@ -12,7 +12,7 @@
 
 **Annealing:**
 
-```tikz
+```
 \usepackage{pgfplots}
 \begin{document}
 
