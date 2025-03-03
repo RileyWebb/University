@@ -1,14 +1,12 @@
 [
   "obsidian-day-planner",
   "obsidian-excalidraw-plugin",
-  "highlightr-plugin",
   "obsidian-git",
   "obsidian-kanban",
   "dataview",
   "obsidian-latex-suite",
-  "calctex",
   "obsidian-tikzjax",
-  "table-editor-obsidian",
   "make-md",
-  "copilot"
+  "copilot",
+  "calctex"
 ]
