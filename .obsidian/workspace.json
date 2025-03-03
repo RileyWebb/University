@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Iron and steel and heat treatment.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Iron and steel and heat treatment"
             }
           }
         ]
@@ -153,13 +153,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RMIT.md",
+                "file": "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Iron and steel and heat treatment.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of RMIT"
+              "title": "Outline of Iron and steel and heat treatment"
             }
           },
           {
@@ -177,16 +177,6 @@
             }
           },
           {
-            "id": "c9a27b2e67fcfb17",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
             "id": "ecc0bf3bbe4ae02c",
             "type": "leaf",
             "state": {
@@ -195,9 +185,19 @@
               "icon": "calendar-with-checkmark",
               "title": "Timeline"
             }
+          },
+          {
+            "id": "992b9f04a5b67f52",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -218,17 +218,20 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "63d57b0dc8aac5bb",
+  "active": "992b9f04a5b67f52",
   "lastOpenFiles": [
+    "2025 - Semester 1/PROC2097 - Engineering Materials/Engineering Materials.md",
+    "README.md",
+    "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 3.md",
+    "2025 - Semester 1/MANU2112 - Engineering Science/Engineering Science.md",
+    "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 2.md",
+    "2025 - Semester 1/MATH2167 - Mathmatics 1/Mathematics 1.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Polymers.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/PROC2097 - Engineering Materials.md",
-    "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 3.md",
     "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 2.md",
     "2025 - Semester 1/MANU2112 - Engineering Science/Notes/Work and energy, Kinetic and potential energy.md",
     "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 1.md",
     "2025 - Semester 1/EEET2276 - Electrical Principles/Electrical Principles.md",
-    "README.md",
-    "2025 - Semester 1/MANU2112 - Engineering Science/Engineering Science.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/MATH2167 - Mathmatics 1.md",
     "Untitled.png",
     "Drawings/Drawings.md",
@@ -248,16 +251,13 @@
     "2025 - Semester 1/PROC2097 - Engineering Materials/Assignments",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Practice Tutorial 3.pdf",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 3.md",
-    "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 2.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 1.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Practice Tutorial 1.pdf",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Excercise Booklet Tutorial 3.pdf",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Excercise Booklet Tutorial 2.pdf",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Excercise Booklet Tutorial 1.pdf",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments",
-    "2025 - Semester 1/MANU2112 - Engineering Science/MANU2112 - Engineering Science.md",
     "2025 - Semester 1/EEET2276 - Electrical Principles/Resources/Pasted image 20250211120748.png",
-    "2025 - Semester 1/MATH2167 - Mathmatics 1/Mathematics 1.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Resources/IMG_0475.png",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Resources/IMG_0476.png"
   ]

@@ -36,11 +36,12 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "/",
-    "//Drawings",
     "//2025 - Semester 1",
     "//2025 - Semester 1/2025 - Semester 1/MANU2112 - Engineering Science/2025 - Semester 1/MANU2112 - Engineering Science/Notes",
     "//2025 - Semester 1/2025 - Semester 1/MANU2112 - Engineering Science/2025 - Semester 1/MANU2112 - Engineering Science/Assignments",
-    "//2025 - Semester 1/2025 - Semester 1/MANU2112 - Engineering Science/2025 - Semester 1/MANU2112 - Engineering Science/Assignments/2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial"
+    "//2025 - Semester 1/2025 - Semester 1/MANU2112 - Engineering Science/2025 - Semester 1/MANU2112 - Engineering Science/Assignments/2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial",
+    "//2025 - Semester 1/2025 - Semester 1/PROC2097 - Engineering Materials",
+    "//2025 - Semester 1/2025 - Semester 1/MANU2112 - Engineering Science"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
