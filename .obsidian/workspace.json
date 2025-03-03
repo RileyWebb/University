@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "e431a8959c645cf0",
+            "id": "20c3f3e709e2a80e",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "1c654a6453f689fb",
+            "id": "19d099ffe44f44d5",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -177,7 +177,17 @@
             }
           },
           {
-            "id": "a7aa7ed9ec97a3bb",
+            "id": "c9a27b2e67fcfb17",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "ecc0bf3bbe4ae02c",
             "type": "leaf",
             "state": {
               "type": "planner-timeline",
@@ -185,19 +195,9 @@
               "icon": "calendar-with-checkmark",
               "title": "Timeline"
             }
-          },
-          {
-            "id": "c9a27b2e67fcfb17",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -205,12 +205,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "copilot:Open Copilot Chat": false,
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-day-planner:Open Timeline": false,
@@ -218,13 +214,17 @@
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-kanban:Create new board": false,
-      "omnisearch:Omnisearch": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "copilot:Open Copilot Chat": false
     }
   },
   "active": "63d57b0dc8aac5bb",
   "lastOpenFiles": [
-    "2025 - Semester 1/MANU2112 - Engineering Science/Engineering Science.md",
+    "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 1.md",
+    "2025 - Semester 1/EEET2276 - Electrical Principles/Electrical Principles.md",
     "README.md",
+    "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 3.md",
+    "2025 - Semester 1/MANU2112 - Engineering Science/Engineering Science.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/MATH2167 - Mathmatics 1.md",
     "Untitled.png",
     "Drawings/Drawings.md",
@@ -235,8 +235,6 @@
     "Drawings/Drawing 2025-02-25 15.57.47.excalidraw.md",
     "Drawings/Drawing 2025-02-19 18.52.25.excalidraw.md",
     "Drawings/Drawing 2025-02-19 18.48.28.excalidraw.md",
-    "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 3.md",
-    "2025 - Semester 1/EEET2276 - Electrical Principles/Electrical Principles.md",
     "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/Tutorial 2.md",
     "Tags",
     "RMIT.md",
@@ -256,7 +254,6 @@
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments",
     "2025 - Semester 1/MANU2112 - Engineering Science/MANU2112 - Engineering Science.md",
     "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 2.md",
-    "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 1.md",
     "2025 - Semester 1/EEET2276 - Electrical Principles/Resources/Pasted image 20250211120748.png",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Mathematics 1.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Vector Algebra, Cartesian Coordinate System, Scalar (Dot) Product, Scalar and Vector Projections, Vector (Cross) Product with Applications.md",
