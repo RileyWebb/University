@@ -185,14 +185,23 @@
               "icon": "calendar-with-checkmark",
               "title": "Timeline"
             }
+          },
+          {
+            "id": "c9a27b2e67fcfb17",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -212,27 +221,30 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "63d57b0dc8aac5bb",
+  "active": "c9a27b2e67fcfb17",
   "lastOpenFiles": [
-    "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 3.md",
-    "2025 - Semester 1/MANU2112 - Engineering Science/Engineering Science.md",
-    "2025 - Semester 1/EEET2276 - Electrical Principles/Electrical Principles.md",
-    "To-Do.md",
+    "2025 - Semester 1/MATH2167 - Mathmatics 1/MATH2167 - Mathmatics 1.md",
     "Untitled.png",
+    "Drawings/Drawings.md",
+    "2025 - Semester 1/PROC2097 - Engineering Materials/PROC2097 - Engineering Materials.md",
     "README.md",
-    "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/Tutorial 2.md",
-    "Tags",
-    "RMIT.md",
+    "2025 - Semester 1/EEET2276 - Electrical Principles/EEET2276 - Electrical Principles.md",
     "Drawings/Drawing 2025-02-27 11.41.42.excalidraw.md",
+    "To-Do.md",
     "Drawings/Drawing 2025-02-25 15.57.47.excalidraw.md",
     "Drawings/Drawing 2025-02-19 18.52.25.excalidraw.md",
     "Drawings/Drawing 2025-02-19 18.48.28.excalidraw.md",
+    "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 3.md",
+    "2025 - Semester 1/MANU2112 - Engineering Science/Engineering Science.md",
+    "2025 - Semester 1/EEET2276 - Electrical Principles/Electrical Principles.md",
+    "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/Tutorial 2.md",
+    "Tags",
+    "RMIT.md",
     "Drawings",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Assignments/Tutorial 1.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Assignments/Tutorial 3.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Assignments/PROC_2097_Tute-1_SP-3.pdf",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Assignments",
-    "2025 - Semester 1/MATH2167 - Mathmatics 1/MATH2167 - Mathmatics 1.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Practice Tutorial 3.pdf",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 3.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 2.md",
@@ -249,9 +261,6 @@
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Mathematics 1.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Vector Algebra, Cartesian Coordinate System, Scalar (Dot) Product, Scalar and Vector Projections, Vector (Cross) Product with Applications.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Resources/IMG_0475.png",
-    "2025 - Semester 1/MATH2167 - Mathmatics 1/Resources/IMG_0476.png",
-    "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Implicit Differentiation, Logarithmic Differentiation, Derivative of Inverse Trigonometric Functions, Hyperbolic Functions.md",
-    "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Differentiation by first principles, Differentiation of polynomials, Trigonometric, Exponential & Logarithmic functions, Basic rules of Differentiation.md",
-    "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Numerical Integration, Trapezoidal Rule, Simpson’s 1-3rd Rule.md"
+    "2025 - Semester 1/MATH2167 - Mathmatics 1/Resources/IMG_0476.png"
   ]
 }
