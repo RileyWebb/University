@@ -5,8 +5,8 @@
   "obsidian-kanban",
   "dataview",
   "obsidian-latex-suite",
+  "calctex",
   "obsidian-tikzjax",
   "make-md",
-  "copilot",
-  "calctex"
+  "copilot"
 ]

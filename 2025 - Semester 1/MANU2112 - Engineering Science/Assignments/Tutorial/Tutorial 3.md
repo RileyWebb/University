@@ -155,7 +155,7 @@ $\therefore \dfrac{2(2.8\cdot2.5-6)}{2.5^2}=0.32\text{ m/s}^2$
 	$t≈0.6\text{ s}$
 - **B)** $25\cdot0.6-\dfrac{1}{2}9.8\cdot0.6^2 \approx 13.236\text{ m}$
 
-**Question 11:**
+**Question 11:
 > Runner A is initially 4.0 km west of a flagpole and is running with a constant velocity of 6.0 km/h due east. Runner B is initially 3.0 km east of the flagpole and is running with a constant velocity 5.0 km/h due west. How far are the runners from the flagpole when they meet?
 
 [[Tutorial problems 2-1.pdf#page=3&selection=33,4,35,76|Tutorial problems 2-1, page 3]]
@@ -196,6 +196,7 @@ $\therefore \dfrac{2(2.8\cdot2.5-6)}{2.5^2}=0.32\text{ m/s}^2$
 \end{document}
 
 ```
+
 
 $-4+6\cdot t=3-5\cdot t$
 $t=\dfrac{7}{11}$

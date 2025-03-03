@@ -13,26 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/Tutorial 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "72629fa5c6bfc84e",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "mk-ever-view",
-              "state": {
-                "path": "2025 - Semester 1/MANU2112 - Engineering Science"
-              },
-              "pinned": true,
-              "icon": "columns",
-              "title": "Overview"
+              "title": "Tutorial 2"
             }
           },
           {
@@ -81,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "SUVAT",
+                "query": "suvat",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +89,7 @@
             }
           },
           {
-            "id": "d701110caaf8bed1",
+            "id": "a8d3bfe7f25f86a1",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -133,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/Tutorial 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +129,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks for Tutorial 2"
             }
           },
           {
@@ -181,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/Tutorial 2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of Tutorial 2"
             }
           },
           {
@@ -253,19 +239,22 @@
   },
   "active": "6120da716fe1bde9",
   "lastOpenFiles": [
+    "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/Tut 02b.pdf",
+    "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/Tutorial 2.md",
+    "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 3.md",
+    "2025 - Semester 1/MANU2112 - Engineering Science/Engineering Science.md",
+    "2025 - Semester 1/MANU2112 - Engineering Science/MANU2112 - Engineering Science.md",
+    "2025 - Semester 1/MATH2167 - Mathmatics 1/MATH2167 - Mathmatics 1.md",
+    "README.md",
     "Drawings/Drawings.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/PROC2097 - Engineering Materials.md",
     "2025 - Semester 1/EEET2276 - Electrical Principles/EEET2276 - Electrical Principles.md",
-    "2025 - Semester 1/MATH2167 - Mathmatics 1/MATH2167 - Mathmatics 1.md",
-    "2025 - Semester 1/MANU2112 - Engineering Science/MANU2112 - Engineering Science.md",
     "Untitled.png",
     "Untitled.png.0.pdnSave",
-    "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 3.md",
     "2025 - Semester 1/MANU2112 - Engineering Science/Notes/Linear motion with constant acceleration.md",
     "To-Do.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Iron and steel and heat treatment.md",
     "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial problems 2-1.pdf",
-    "README.md",
     "Tags",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Engineering Materials.md",
     "Drawings/Drawing 2025-02-19 18.48.28.excalidraw.md",
@@ -279,16 +268,12 @@
     "2025 - Semester 1/PROC2097 - Engineering Materials/Assignments/Tutorial 3.md",
     "Drawings/Drawing 2025-02-27 11.41.42.excalidraw.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Excercise Booklet Tutorial 3.pdf",
-    "2025 - Semester 1/MANU2112 - Engineering Science/Engineering Science.md",
     "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 2.md",
     "8ab8a329d91fa64ee7d52a84bd6433ba-3514238824.png",
     "Drawings/Drawing 2025-02-25 15.57.47.excalidraw.md",
-    "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/Tutorial 2.md",
-    "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/Tut 02b.pdf",
     "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/Tut 02-a-2.pdf",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Excercise Booklet Tutorial 2.pdf",
     "2025 - Semester 1/EEET2276 - Electrical Principles/Electrical Principles.md",
-    "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Vector Algebra, Cartesian Coordinate System, Scalar (Dot) Product, Scalar and Vector Projections, Vector (Cross) Product with Applications.md",
     "Drawings",
     "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial problems 1-2.pdf",
     "2025 - Semester 1/EEET2276 - Electrical Principles/Resources/Pasted image 20250211120748.png",

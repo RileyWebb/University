@@ -101,3 +101,4 @@ $\mathbf{R6}=\frac{1}{\left( \frac{1}{2200} \right)+\left( \frac{1}{1500} \right
 
 
 
+

@@ -1,5 +1,3 @@
-
-
 # Quick links
 ---
 
@@ -31,7 +29,7 @@
 | **Week 15-** | [[2025 - Semester 1/MANU2112 - Engineering Science/Notes/Revision\|Revision]]                                                             |
 
 # Assignments
-
+---
 ## Tutorials
 
 - [[2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 1|Tutorial 1]]
