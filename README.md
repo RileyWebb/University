@@ -1,7 +1,7 @@
 ---
 banner: Untitled.png
 banner_y: "32"
-sticker: lucide//home
+sticker: ""
 ---
 
 # Hyperlinks
