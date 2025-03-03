@@ -4,21 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "2336c9afa86d3d19",
+        "id": "4b4fcfd628bff61e",
         "type": "tabs",
         "children": [
           {
-            "id": "63d57b0dc8aac5bb",
+            "id": "6120da716fe1bde9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Iron and steel and heat treatment.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Iron and steel and heat treatment"
+              "title": "README"
+            }
+          },
+          {
+            "id": "72629fa5c6bfc84e",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "mk-ever-view",
+              "state": {
+                "path": "2025 - Semester 1/MANU2112 - Engineering Science"
+              },
+              "pinned": true,
+              "icon": "columns",
+              "title": "Overview"
+            }
+          },
+          {
+            "id": "df8f49cc46390ab9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 3.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tutorial 3"
             }
           }
         ]
@@ -53,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "SUVAT",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +93,7 @@
             }
           },
           {
-            "id": "20c3f3e709e2a80e",
+            "id": "e431a8959c645cf0",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -75,7 +103,7 @@
             }
           },
           {
-            "id": "19d099ffe44f44d5",
+            "id": "d701110caaf8bed1",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -89,7 +117,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 329.5
   },
   "right": {
     "id": "74675c047b5c64bf",
@@ -105,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2025 - Semester 1/EEET2276 - Electrical Priciples/Electrical Priciples.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +143,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Electrical Priciples"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -153,13 +181,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Iron and steel and heat treatment.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Iron and steel and heat treatment"
+              "title": "Outline of README"
             }
           },
           {
@@ -177,7 +205,7 @@
             }
           },
           {
-            "id": "ecc0bf3bbe4ae02c",
+            "id": "7f067f292dcc9c78",
             "type": "leaf",
             "state": {
               "type": "planner-timeline",
@@ -187,7 +215,7 @@
             }
           },
           {
-            "id": "992b9f04a5b67f52",
+            "id": "3c417236fe19b026",
             "type": "leaf",
             "state": {
               "type": "copilot-chat-view",
@@ -205,59 +233,67 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "daily-notes:Open today's daily note": false,
       "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-day-planner:Open Timeline": false,
       "obsidian-day-planner:Open Multi-Day View": false,
       "obsidian-excalidraw-plugin:New drawing": false,
+      "homepage:Open homepage": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-kanban:Create new board": false,
+      "omnisearch:Omnisearch": false,
+      "templater-obsidian:Templater": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "992b9f04a5b67f52",
+  "active": "6120da716fe1bde9",
   "lastOpenFiles": [
-    "2025 - Semester 1/PROC2097 - Engineering Materials/Engineering Materials.md",
-    "README.md",
+    "Drawings/Drawings.md",
+    "2025 - Semester 1/PROC2097 - Engineering Materials/PROC2097 - Engineering Materials.md",
+    "2025 - Semester 1/EEET2276 - Electrical Principles/EEET2276 - Electrical Principles.md",
+    "2025 - Semester 1/MATH2167 - Mathmatics 1/MATH2167 - Mathmatics 1.md",
+    "2025 - Semester 1/MANU2112 - Engineering Science/MANU2112 - Engineering Science.md",
+    "Untitled.png",
+    "Untitled.png.0.pdnSave",
     "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 3.md",
-    "2025 - Semester 1/MANU2112 - Engineering Science/Engineering Science.md",
+    "2025 - Semester 1/MANU2112 - Engineering Science/Notes/Linear motion with constant acceleration.md",
+    "To-Do.md",
+    "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Iron and steel and heat treatment.md",
+    "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial problems 2-1.pdf",
+    "README.md",
+    "Tags",
+    "2025 - Semester 1/PROC2097 - Engineering Materials/Engineering Materials.md",
+    "Drawings/Drawing 2025-02-19 18.48.28.excalidraw.md",
+    "Drawings/Drawing 2025-02-19 18.52.25.excalidraw.md",
+    "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 3.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 2.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Mathematics 1.md",
-    "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Polymers.md",
-    "2025 - Semester 1/PROC2097 - Engineering Materials/PROC2097 - Engineering Materials.md",
-    "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 2.md",
-    "2025 - Semester 1/MANU2112 - Engineering Science/Notes/Work and energy, Kinetic and potential energy.md",
-    "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 1.md",
-    "2025 - Semester 1/EEET2276 - Electrical Principles/Electrical Principles.md",
-    "2025 - Semester 1/MATH2167 - Mathmatics 1/MATH2167 - Mathmatics 1.md",
-    "Untitled.png",
-    "Drawings/Drawings.md",
-    "2025 - Semester 1/EEET2276 - Electrical Principles/EEET2276 - Electrical Principles.md",
-    "Drawings/Drawing 2025-02-27 11.41.42.excalidraw.md",
-    "To-Do.md",
-    "Drawings/Drawing 2025-02-25 15.57.47.excalidraw.md",
-    "Drawings/Drawing 2025-02-19 18.52.25.excalidraw.md",
-    "Drawings/Drawing 2025-02-19 18.48.28.excalidraw.md",
-    "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/Tutorial 2.md",
-    "Tags",
-    "RMIT.md",
-    "Drawings",
+    "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Practice Tutorial 3.pdf",
+    "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Concepts of engineering materials.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Assignments/Tutorial 1.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Assignments/Tutorial 3.md",
-    "2025 - Semester 1/PROC2097 - Engineering Materials/Assignments/PROC_2097_Tute-1_SP-3.pdf",
-    "2025 - Semester 1/PROC2097 - Engineering Materials/Assignments",
-    "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Practice Tutorial 3.pdf",
-    "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 3.md",
-    "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 1.md",
-    "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Practice Tutorial 1.pdf",
+    "Drawings/Drawing 2025-02-27 11.41.42.excalidraw.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Excercise Booklet Tutorial 3.pdf",
+    "2025 - Semester 1/MANU2112 - Engineering Science/Engineering Science.md",
+    "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 2.md",
+    "8ab8a329d91fa64ee7d52a84bd6433ba-3514238824.png",
+    "Drawings/Drawing 2025-02-25 15.57.47.excalidraw.md",
+    "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/Tutorial 2.md",
+    "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/Tut 02b.pdf",
+    "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/Tut 02-a-2.pdf",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Excercise Booklet Tutorial 2.pdf",
-    "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Excercise Booklet Tutorial 1.pdf",
-    "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments",
+    "2025 - Semester 1/EEET2276 - Electrical Principles/Electrical Principles.md",
+    "2025 - Semester 1/MATH2167 - Mathmatics 1/Notes/Vector Algebra, Cartesian Coordinate System, Scalar (Dot) Product, Scalar and Vector Projections, Vector (Cross) Product with Applications.md",
+    "Drawings",
+    "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial problems 1-2.pdf",
     "2025 - Semester 1/EEET2276 - Electrical Principles/Resources/Pasted image 20250211120748.png",
+    "Pasted image 20250211113912.png",
+    "Pasted image 20250211120426.png",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Resources/IMG_0475.png",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Resources/IMG_0476.png"
   ]
