@@ -35,7 +35,10 @@
   "showRibbon": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "/"
+    "/",
+    "//Drawings",
+    "//2025 - Semester 1",
+    "//2025 - Semester 1/2025 - Semester 1/MANU2112 - Engineering Science"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

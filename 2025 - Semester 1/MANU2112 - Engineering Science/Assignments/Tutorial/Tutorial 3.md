@@ -18,7 +18,14 @@ Total Distance: $10+6+6\cdot4=40\text{ m}$
 Average Speed: $\dfrac{17.5}{40}=2.5\text{ m/s}$
 
 **Question 3:**
-> An automobile traveling along a straight road increases its speed from 30.0 m/s to 50.0 m/s in a distance of 180 m. If the acceleration is constant, how much time elapses while the auto moves this distance?
+> An automobile traveling along a straight road increases its speed from 30.0 m/s to 50.0 Okay, here are three follow-up questions based on the provided note, [[Tutorial 3]],  worded as if you're asking me:
+
+1.  In Question 8, you used the formula  $a=\dfrac{2(vt-s)}{2t}$. Can you remind me where this formula comes from, perhaps referencing the standard kinematic equations?
+
+2.  For Question 10, the visualization shows the balls meeting. Is the y-axis in the graph representing the height above the ground, and could you clarify how the equations of motion for each ball were derived for the graph?
+
+3.  In Question 11, the answer is given as a negative distance from the flagpole. Could you explain the significance of the negative sign in this context, and clarify where the runners meet relative to the flagpole?
+m/s in a distance of 180 m. If the acceleration is constant, how much time elapses while the auto moves this distance?
 
 [[Tutorial problems 2-1.pdf#page=1&selection=63,0,67,14|Tutorial problems 2-1, page 1]]
 
