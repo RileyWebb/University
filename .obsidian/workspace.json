@@ -11,12 +11,14 @@
             "id": "df8f49cc46390ab9",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/Tut 02-c.pdf"
+                "file": "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/Tutorial 2.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Tut 02-c"
+              "icon": "lucide-file",
+              "title": "Tutorial 2"
             }
           },
           {
@@ -231,13 +233,14 @@
   },
   "active": "df8f49cc46390ab9",
   "lastOpenFiles": [
-    "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Excercise Booklet Tutorial 2.pdf",
+    "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 4.md",
+    "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 3.md",
     "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/Tut 02-c.pdf",
+    "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Excercise Booklet Tutorial 2.pdf",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Untitled 1.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Excercise Booklet Tutorial 4.pdf",
     "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial problems 2-1.pdf",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 4.md",
-    "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 3.md",
     "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/Tutorial 3.md",
     "2025 - Semester 1/EEET2276 - Electrical Principles/Electrical Principles.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Engineering Materials.md",
