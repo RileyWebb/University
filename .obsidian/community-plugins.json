@@ -1,13 +1,17 @@
 [
   "obsidian-day-planner",
+  "editing-toolbar",
   "obsidian-excalidraw-plugin",
+  "highlightr-plugin",
+  "homepage",
   "obsidian-git",
+  "obsidian-icon-folder",
   "obsidian-kanban",
+  "omnisearch",
+  "templater-obsidian",
   "dataview",
   "obsidian-latex-suite",
   "calctex",
-  "make-md",
-  "copilot",
-  "latex-ocr",
-  "obsidian-tikzjax"
+  "obsidian-tikzjax",
+  "table-editor-obsidian"
 ]
