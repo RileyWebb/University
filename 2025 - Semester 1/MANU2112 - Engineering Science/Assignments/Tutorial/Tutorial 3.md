@@ -18,7 +18,7 @@ Total Distance: $10+6+6\cdot4=40\text{ m}$
 Average Speed: $\dfrac{17.5}{40}=2.5\text{ m/s}$
 
 **Question 3:**
-> An automobile traveling along a straight road increases its speed from 30.0 m/s to 50.0 Okay, here are three follow-up questions based on the provided note, [[Tutorial 3]],  worded as if you're asking me:
+> An automobile traveling along a straight road increases its speed from 30.0 m/s to 50.0 Okay, here are three follow-up questions based on the provided note, [[2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 3]],  worded as if you're asking me:
 
 1.  In Question 8, you used the formula  $a=\dfrac{2(vt-s)}{2t}$. Can you remind me where this formula comes from, perhaps referencing the standard kinematic equations?
 

@@ -8,5 +8,6 @@
   "calctex",
   "make-md",
   "copilot",
-  "latex-ocr"
+  "latex-ocr",
+  "obsidian-tikzjax"
 ]
