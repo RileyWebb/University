@@ -41,5 +41,3 @@
 **Total Resistance:** $R_{t}=10+22+100+10+12= 154\ohm$
 **Resistance Between A and B:** $R_{ab}=100+10= 110\ohm$
 **Voltage Between A and B:** $V_{ab}=\dfrac{110}{154}\cdot100=71.428\text{V}$
-
-
