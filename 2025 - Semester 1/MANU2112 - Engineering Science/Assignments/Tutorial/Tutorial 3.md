@@ -201,3 +201,4 @@ $\therefore \dfrac{2(2.8\cdot2.5-6)}{2.5^2}=0.32\text{ m/s}^2$
 $-4+6\cdot t=3-5\cdot t$
 $t=\dfrac{7}{11}$
 $-4+6\cdot\dfrac{7}{11}=\dfrac{-2}{11}$
+
