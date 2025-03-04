@@ -201,3 +201,45 @@ $\therefore \dfrac{2(2.8\cdot2.5-6)}{2.5^2}=0.32\text{ m/s}^2$
 $-4+6\cdot t=3-5\cdot t$
 $t=\dfrac{7}{11}$
 $-4+6\cdot\dfrac{7}{11}=\dfrac{-2}{11}$
+
+
+```tikz
+\usepackage{pgfplots}
+
+\begin{document}
+  \begin{tikzpicture}[scale=2]
+    \begin{axis}[
+      title=Polar Coordinate Graph,
+      grid=multiple,
+      minor tick labels=false,
+      width=12cm,
+      height=8cm,
+      axis x label= r,
+      axis y label= θ (degrees),
+    ]
+      % Draw the circle
+      \draw[domain=0:360, smooth] (\x rad) --
+        coordinates {
+          (0, 0)
+          (\pi/2, 90)
+          (\pi, 180)
+          (\3\pi/2, 270)
+          (2\pi, 360) % This repeats the start
+        };
+      \draw[domain=0:360, smooth] (\x rad) --
+        coordinates {
+          (0, 0)
+          (\pi/2, 90)
+          (\pi, 180)
+          (\3\pi/2, 270)
+          (2\pi, 360) % This repeats the start
+        };
+      \draw[domain=0:2] (0, --) (\pi/2, --) plot[domain=0:\pi/2] function
+{sin(deg(\x))};
+    }
+    \begin{fill}
+      circle (1cm);
+    \end{fill}
+  \end{tikzpicture}
+\end{document}
+```

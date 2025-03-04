@@ -13,5 +13,8 @@
   "obsidian-latex-suite",
   "calctex",
   "obsidian-tikzjax",
-  "table-editor-obsidian"
+  "table-editor-obsidian",
+  "latex-ocr",
+  "make-md",
+  "copilot"
 ]

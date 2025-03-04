@@ -75,13 +75,13 @@
             }
           },
           {
-            "id": "19bab4a0eab1d07d",
+            "id": "64996e2897c600a5",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "layout-grid",
+              "title": "Navigator"
             }
           }
         ],
@@ -207,10 +207,12 @@
       "obsidian-day-planner:Open Multi-Day View": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-kanban:Create new board": false
+      "obsidian-kanban:Create new board": false,
+      "latex-ocr:LatexOCR": false,
+      "copilot:Open Copilot Chat": false
     }
   },
-  "active": "7f067f292dcc9c78",
+  "active": "d8ba1bfed0d3e43c",
   "lastOpenFiles": [
     "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 3.md",
     "2025 - Semester 1/MANU2112 - Engineering Science/Engineering Science.md",
