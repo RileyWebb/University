@@ -105,7 +105,7 @@
             }
           },
           {
-            "id": "8e7f09678a3c6664",
+            "id": "19bab4a0eab1d07d",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -231,7 +231,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -248,7 +249,7 @@
       "latex-ocr:LatexOCR": false
     }
   },
-  "active": "df8f49cc46390ab9",
+  "active": "9ee03dc58b0a1034",
   "lastOpenFiles": [
     "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial problems 3-3-1.pdf",
     "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 4.md",
