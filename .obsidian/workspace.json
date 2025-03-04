@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025 - Semester 1/PROC2097 - Engineering Materials/Engineering Materials.md",
+                "file": "2025 - Semester 1/EEET2276 - Electrical Principles/Electrical Principles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Engineering Materials"
+              "title": "Electrical Principles"
             }
           },
           {
@@ -228,11 +228,14 @@
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-kanban:Create new board": false,
-      "copilot:Open Copilot Chat": false
+      "copilot:Open Copilot Chat": false,
+      "latex-ocr:LatexOCR": false
     }
   },
   "active": "6120da716fe1bde9",
   "lastOpenFiles": [
+    "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/Tutorial 4.md",
+    "2025 - Semester 1/PROC2097 - Engineering Materials/Engineering Materials.md",
     "Tags",
     "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/Tutorial 2.md",
     "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/Tut 02b.pdf",
@@ -250,7 +253,6 @@
     "To-Do.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Iron and steel and heat treatment.md",
     "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial problems 2-1.pdf",
-    "2025 - Semester 1/PROC2097 - Engineering Materials/Engineering Materials.md",
     "Drawings/Drawing 2025-02-19 18.48.28.excalidraw.md",
     "Drawings/Drawing 2025-02-19 18.52.25.excalidraw.md",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Tutorial 3.md",

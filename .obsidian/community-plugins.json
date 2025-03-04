@@ -6,7 +6,7 @@
   "dataview",
   "obsidian-latex-suite",
   "calctex",
-  "obsidian-tikzjax",
   "make-md",
-  "copilot"
+  "copilot",
+  "latex-ocr"
 ]
