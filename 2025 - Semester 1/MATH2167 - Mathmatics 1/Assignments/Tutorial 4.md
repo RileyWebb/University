@@ -283,6 +283,33 @@ $$
 ```
 
 
+### Question 1:
+> $z^3-4z^2+z+26=0$
+
+[[Practice Tutorial 4.pdf#page=1&selection=32,1,46,0|Practice Tutorial 4, page 1]]
+
+$P(z)=z^3-4z^2+z+26=0$
+
+$P(-2)=(-2)^3-4(-2)^2+(-2)+26=0$
+
+
+$$
+\usepackage{amsmath}
+\begin{align*} \multicolumn{2}{r}{z^2 - 2z - 3} \\ z - 2 \hspace{0.2cm} \overline{\big) \hspace{0.2cm} z^3 - 4z^2 + z + 26} \\ \multicolumn{2}{r}{\underline{z^3 - 2z^2}} \\ \multicolumn{2}{r}{-2z^2 + z} \\ \multicolumn{2}{r}{\underline{-2z^2 + 4z}} \\ \multicolumn{2}{r}{-3z + 26} \\ \multicolumn{2}{r}{\underline{-3z + 6}} \\ \multicolumn{2}{r}{20} \end{align*} Therefore, $z^3 - 4z^2 + z + 26 = (z - 2)(z^2 - 2z - 3) + 20$.$$
+
+
+> $z^4+9z^2+14=0$
+
+[[Practice Tutorial 4.pdf#page=1&selection=49,1,61,1|Practice Tutorial 4, page 1]]
+
+let $z^2=t$
+$t^2+9t+14=0$
+
+find $\Delta$ determinant:
+$b^2-4ac$
+
+$9^2-4\cdot1\cdot14=25$
+
 ### Question 2i:
 > Form a quadratic with real coefficients having amongst its roots i+− 6 
 
