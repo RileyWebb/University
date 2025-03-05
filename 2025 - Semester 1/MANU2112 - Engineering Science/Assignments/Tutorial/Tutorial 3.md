@@ -202,3 +202,85 @@ $-4+6\cdot t=3-5\cdot t$
 $t=\dfrac{7}{11}$
 $-4+6\cdot\dfrac{7}{11}=\dfrac{-2}{11}$
 
+```tikz
+\usepackage{tikz}
+
+\begin{document}
+
+\begin{tikzpicture}
+
+    % Draw the polar grid
+    \draw[gray!30, thin] (0,0) circle (3);
+    \draw[gray!30, thin] (0,0) circle (2);
+    \draw[gray!30, thin] (0,0) circle (1);
+
+    % Draw the angle lines
+    \foreach \angle in {0, 30, 45, 60, 90, 120, 135, 150, 180, 210, 225, 240, 270, 300, 315, 330} {
+        \draw[gray!50, thin] (0,0) -- (\angle:3);
+    }
+
+    % Label the angles
+    \foreach \angle in {0, 30, 45, 60, 90, 120, 135, 150, 180, 210, 225, 240, 270, 300, 315, 330} {
+        \node at (\angle:3.3) {$\angle^\circ$};
+    }
+
+    % Label the radii
+    \foreach \radius in {1, 2, 3} {
+        \node at (\radius, 0.3) {$r = \radius$};
+    }
+
+    % Draw key points and label them in polar form with imaginary components
+    \foreach \angle in {0, 30, 45, 60, 90, 120, 135, 150, 180, 210, 225, 240, 270, 300, 315, 330} {
+        \foreach \radius in {1, 2, 3} {
+            \filldraw (\angle:\radius) circle (2pt);
+            \node[anchor=center, font=\scriptsize] at (\angle:\radius + 0.3) {$\radius e^{i\cdot \angle}$};
+        }
+    }
+
+    % Draw the real and imaginary axes
+    \draw[->, thick] (-3.5,0) -- (3.5,0) node[right] {$\mathrm{Re}$}; % Real axis
+    \draw[->, thick] (0,-3.5) -- (0,3.5) node[above] {$\mathrm{Im}$}; % Imaginary axis
+
+\end{tikzpicture}
+
+\end{document}
+```
+
+```tikz
+\usepackage{tikz}
+
+\begin{document}
+
+\begin{tikzpicture}
+
+    % Draw the polar grid
+    \draw[gray!30, thin] (0,0) circle (3);
+    \draw[gray!30, thin] (0,0) circle (2);
+    \draw[gray!30, thin] (0,0) circle (1);
+
+    % Draw the angle lines
+    \foreach \angle in {0, 30, 45, 60, 90, 120, 135, 150, 180, 210, 225, 240, 270, 300, 315, 330} {
+        \draw[gray!50, thin] (0,0) -- (\angle:3);
+    }
+
+    % Label the angles
+    \foreach \angle in {0, 30, 45, 60, 90, 120, 135, 150, 180, 210, 225, 240, 270, 300, 315, 330} {
+        \node at (\angle:3.3) {$\angle^\circ$};
+    }
+
+    % Label the radii
+    \foreach \radius in {1, 2, 3} {
+        \node at (\radius, 0.3) {$\radius$};
+    }
+
+    % Draw key points
+    \foreach \angle in {0, 30, 45, 60, 90, 120, 135, 150, 180, 210, 225, 240, 270, 300, 315, 330} {
+        \filldraw (\angle:1) circle (2pt);
+        \filldraw (\angle:2) circle (2pt);
+        \filldraw (\angle:3) circle (2pt);
+    }
+
+\end{tikzpicture}
+
+\end{document}
+```
