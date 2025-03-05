@@ -53,6 +53,7 @@ $\sqrt{ (-25)^2+40^2 }= 5\sqrt{89}\approx 47.2$
 $\tan(\theta)=\dfrac{40}{-25}$
 $\theta=\tan^{-1}(\dfrac{40}{-25})=122^\circ$
 
+### Question 8:
+>  A rock is projected from the edge of the top of a building with an initial velocity of 12.2 m/s at an angle of 53º above the horizontal. The rock strikes the ground a horizontal distance of 25 m from the base of the building. Assume that the ground is level and that the side of the building is vertical. How tall is the building? (23.6 m)
 
-
-
+[[Tutorial problems 3-3-1.pdf#page=1&selection=110,0,117,7|Tutorial problems 3-3-1, page 1]]
