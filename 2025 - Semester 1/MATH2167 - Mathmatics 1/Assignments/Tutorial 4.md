@@ -29,7 +29,7 @@ aliases:
 
 $z=r\cos(\theta)+i\cdot r\sin(\theta)=r\text{cis}(\theta)$
 
-Expressed as rectangular form: $z=a+ib$
+Expressed as Cartesian form: $z=a+ib$
 
 $\sin(\theta)=\dfrac{b}{r}$
 $\cos(\theta)=\dfrac{a}{r}$
@@ -205,3 +205,95 @@ $z^2-((-2+5i)+(-2-5i))z+(-2+5i)\cdot(-2-5i)=0$
 $z^2-(-4)z+(-2+5i)(-2-5i)=0$
 $z^2-(-4)z+((-2)^2-(5i^2))=0$
 $z^2+4z+29=0$
+
+### Question 4a:
+
+$P(z)=z^3+3z^2+7z+5=0$
+
+find a rational root:
+$P(1) = 1 + 3 + 7 + 5 = 16 \neq 0$
+$P(-1) = -1 + 3 - 7 + 5 = 0$
+
+perform long division:
+$$\[ \begin{array}{r|l} & z^2 + 2z + 5 \\ \hline z + 1 & z^3 + 3z^2 + 7z + 5 \\ & - (z^3 + z^2) \\ \hline & 2z^2 + 7z \\ & - (2z^2 + 2z) \\ \hline & 5z + 5 \\ & - (5z + 5) \\ \hline & 0 \\ \end{array} \]$$
+
+$$\[
+\begin{array}{r|l}
+  & z^2 + 2z + 5 \\
+  \hline
+  z + 1 & z^3 + 3z^2 + 7z + 5 \\
+  & - (z^3 + z^2) \\
+  \cline{2-2}
+  & 2z^2 + 7z \\
+  & - (2z^2 + 2z) \\
+  \cline{2-2}
+  & 5z + 5 \\
+  & - (5z + 5) \\
+  \cline{2-2}
+  & 0 \\
+\end{array}
+\]
+$$
+
+
+```tikz
+\usepackage{tikz}
+
+\begin{document}
+
+\begin{tikzpicture}
+  % Dividend and divisor
+  \node (dividend) at (0,0) {$z^3 + 3z^2 + 7z + 5$};
+  \node (divisor) at (-2,1) {$z+1$};
+
+  % Quotient
+  \node (q1) at (0,2) {$z^2$};
+  \node (q2) at (1.5,2) {$+2z$};
+  \node (q3) at (3,2) {$+5$};
+
+  % Lines
+  \draw (-2.5,1.5) -- (4,1.5);
+  \draw (-1.5,1) -- (-1.5,-3.5);
+
+  % Multiplication and subtraction steps
+  \node (m1) at (0,1) {$z^3 + z^2$};
+  \node (s1) at (0,0.5) {$-$};
+  \draw (m1.west) -- (dividend.west);
+  \draw (-1.5,0.5) -- (3.5,0.5);
+
+  \node (r1) at (0,-0.5) {$2z^2 + 7z$};
+
+  \node (m2) at (1.5,0) {$2z^2 + 2z$};
+  \node (s2) at (1.5,-0.5) {$-$};
+  \draw (m2.west) -- (r1.west);
+  \draw (-1.5,-1) -- (3.5,-1);
+
+  \node (r2) at (1.5,-1.5) {$5z + 5$};
+
+  \node (m3) at (3,-1) {$5z + 5$};
+  \node (s3) at (3,-1.5) {$-$};
+  \draw (m3.west) -- (r2.west);
+  \draw (-1.5,-2) -- (3.5,-2);
+
+  \node (r3) at (3,-2.5) {$0$};
+
+\end{tikzpicture}
+
+\end{document}
+```
+
+
+### Question 2i:
+> Form a quadratic with real coefficients having amongst its roots i+− 6 
+
+[[Practice Tutorial 4.pdf#page=2&selection=8,0,16,0|Practice Tutorial 4, page 2]]
+
+$\alpha=-3+i, \beta=-3-i$
+
+$z^2-(\alpha+\beta)z+\alpha\cdot\beta=0$
+
+$\alpha+\beta=-6$
+$\alpha\cdot\beta=10$
+
+$z^2+6z+10=0$
+$P(z)=z^3+9^2+a\cdot z+30=(z^2+6z+10)(z+3)$
