@@ -7,5 +7,14 @@
       ],
       "key": "U"
     }
-  ]
+  ],
+  "omnisearch:show-modal": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "O"
+    }
+  ],
+  "switcher:open": []
 }

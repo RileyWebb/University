@@ -104,4 +104,107 @@ $t=\dfrac{25}{12.2\cdot \cos(53^\circ)}\approx3.405\text{ s}$
 $\Delta y=u_{y}\cdot t-\dfrac{1}{2}g\cdot t^2$
 $\Delta y=12.2\sin(53^\circ)\cdot 3.405-\dfrac{1}{2}9.8\cdot 3.405^2=-23.6346\text{ m}$
 
+### Question 9:
+> A placekicker must kick a football from a point 36.0 m from the goal. The crossbar is 3.05 m high. When kicked, the ball leaves the ground with a speed of 20.0 m/s at an angle of 53° to the horizontal. 
+> (a) By how much the ball clear or fall short of clearing the crossbar? 
+> (b) Does the ball approach the crossbar while still raising or while falling?
+#projectile_motion 
+[[Tutorial problems 3-3-1.pdf#page=2&selection=10,0,21,1|Tutorial problems 3-3-1, page 2]]
 
+**Visualisation:**
+```tikz
+\usepackage{tikz}
+\usepackage{amsmath}
+
+\begin{document}
+
+\begin{tikzpicture}[scale=0.25]
+    % Axes
+    \draw[->] (0,0) -- (40,0) node[right] {\textbf{x (m)}};
+    \draw[->] (0,0) -- (0,10) node[above] {\textbf{y (m)}};
+
+    % Trajectory curve
+    \draw[thick, blue, domain=0:39, samples=100] 
+        plot (\x, {(\x * tan(53)) - (9.81 * \x^2) / (2 * 20^2 * cos(53)^2)}) 
+        node[above right] {\textbf{Trajectory}};
+
+    % Kicking point
+    \filldraw[red] (0,0) circle (0.5) node[below left] {Kick (0,0)};
+
+    % Goalpost and crossbar
+    \draw[thick] (36,0) -- (36,3.05) node[below left] {\textbf{Crossbar}};
+    \draw[thick] (36,3.05) -- (37,3.05); % Small horizontal line at the top of the post
+
+    % Initial velocity vector
+    \draw[->, red, thick] (0,0) -- (6,8) node[above left] {\textbf{V = 20 m/s}};
+    \draw[dashed, red] (0,0) -- (6,0) node[below] {\textbf{$V_x = V \cos 53^\circ$}};
+    \draw[dashed, red] (6,0) -- (6,8) node[below right] {\textbf{$V_y = V \sin 53^\circ$}};
+
+    % Angle theta
+    \draw[thick] (3,0) arc[start angle=0,end angle=53,radius=3cm];
+    \node at (3.5,1) {\textbf{$53^\circ$}};
+
+    % Dotted line to show goal height check
+    \draw[dashed] (36,0) -- (36,6); % Extends to max height
+    \filldraw[] (36, {36*tan(53) - (9.81*36^2)/(2*20^2*cos(53)^2)}) circle (0.4) node[right] {\textbf{Ball at x=36}};
+
+\end{tikzpicture}
+
+\end{document}
+
+```
+
+$u_{x}=20\cdot \cos(53^\circ)$
+$u_{y}=20\cdot \sin(53^\circ)$
+
+$\therefore$ $t=\dfrac{36}{20\cdot \cos(53^\circ)}\approx 2.99\text{ s}$
+**Part a:**
+using $s=ut+\dfrac{1}{2}at^2$:
+$s=(20\cdot \sin(53^\circ))\cdot2.99-\dfrac{1}{2}9.8\cdot (2.99)^2\approx 3.951\text{ m}$
+**Part b:**
+using $v=u+at$:
+$v=20\cdot \sin(53^\circ)-9.8\cdot2.99\approx-13.3293\text{ m/s}$
+
+### Question 10:
+> An airplane, whose air speed is 600 km/h, is supposed to fly in a straight path 35° North of East. But a steady 100 km/h wind is blowing from the north. In what direction should the plane head?
+#projectile_motion 
+[[Tutorial problems 3-3-1.pdf#page=2&selection=25,0,27,94|Tutorial problems 3-3-1, page 2]]
+
+**Visualisation:**
+```tikz
+\usepackage{tikz}
+\usepackage{amsmath}
+
+\begin{document}
+
+\begin{tikzpicture}[scale=0.1]
+    % Axes
+    \draw[->] (0,0) -- (70,0) node[right] {\textbf{East}};
+    \draw[->] (0,-20) -- (0,50) node[above] {\textbf{North}};
+
+    % Airplane's airspeed vector (heading)
+    \draw[->, thick, red] (0,0) -- (44.1,40.8) node[above right] {\textbf{Airplane Heading (600 km/h)}};
+    
+    % Wind velocity vector
+    \draw[->, thick, blue] (44.1,40.8) -- (44.1,30.8) node[right] {\textbf{Wind (100 km/h)}};
+
+    % Resultant velocity (actual path of the airplane)
+    \draw[->, thick, green] (0,0) -- (44.1,30.8) node[below right] {\textbf{Actual Path (35° N of E)}};
+
+    % Angle for heading
+    \draw[thick] (10,0) arc[start angle=0,end angle=42.8,radius=10];
+    \node at (12,4) {\textbf{42.8°}};
+
+    % Angle for actual path
+    \draw[thick] (10,0) arc[start angle=0,end angle=35,radius=10];
+    \node at (15,3) {\textbf{35°}};
+
+    % Labels
+    \node at (22,-2) {\textbf{East}};
+    \node at (-2,45) {\textbf{North}};
+    
+\end{tikzpicture}
+
+\end{document}
+
+```

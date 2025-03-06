@@ -11,5 +11,6 @@
   "obsidian-tikzjax",
   "latex-ocr",
   "make-md",
-  "copilot"
+  "copilot",
+  "text-extractor"
 ]

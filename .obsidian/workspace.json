@@ -22,19 +22,20 @@
             }
           },
           {
-            "id": "f857c40a5577faca",
+            "id": "4f061396f58a14c3",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.9"
+                "file": "2025 - Semester 1/MANU2112 - Engineering Science/Notes/Linear motion with constant acceleration.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
+              "icon": "lucide-file",
+              "title": "Linear motion with constant acceleration"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "cfe30c4222b8e234",
@@ -118,7 +119,7 @@
             }
           },
           {
-            "id": "bdc154e3cd0a2a98",
+            "id": "89e9712098ecd196",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -128,12 +129,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 329.5,
-    "collapsed": true
+    "width": 329.5
   },
   "right": {
     "id": "74675c047b5c64bf",
@@ -254,10 +254,11 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "df8f49cc46390ab9",
+  "active": "bbd7d4733ca05d83",
   "lastOpenFiles": [
     "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial problems 3-3-1.pdf",
     "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial 4.md",
+    "2025 - Semester 1/MANU2112 - Engineering Science/Notes/Linear motion with constant acceleration.md",
     "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial problems 2-1.pdf",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Practice Tutorial 4.pdf",
     "2025 - Semester 1/MATH2167 - Mathmatics 1/Assignments/Excercise Booklet Tutorial 4.pdf",
@@ -281,7 +282,6 @@
     "2025 - Semester 1/EEET2276 - Electrical Principles/EEET2276 - Electrical Principles.md",
     "Untitled.png",
     "Untitled.png.0.pdnSave",
-    "2025 - Semester 1/MANU2112 - Engineering Science/Notes/Linear motion with constant acceleration.md",
     "To-Do.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Iron and steel and heat treatment.md",
     "Drawings/Drawing 2025-02-19 18.48.28.excalidraw.md",
