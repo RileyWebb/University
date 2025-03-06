@@ -177,7 +177,7 @@ $v=20\cdot \sin(53^\circ)-9.8\cdot2.99\approx-13.3293\text{ m/s}$
 
 \begin{document}
 
-\begin{tikzpicture}[scale=0.1]
+\begin{tikzpicture}[scale=0.2]
     % Axes
     \draw[->] (0,0) -- (70,0) node[right] {\textbf{East}};
     \draw[->] (0,-20) -- (0,50) node[above] {\textbf{North}};
