@@ -94,11 +94,9 @@
 
 ```tikz
 \begin{document}
-\begin{tikzpicture}[scale=0.8]
+\begin{tikzpicture}[scale=1.2]
 
-% Coordinate system
-\draw[->, thick] (0,0) -- (8,0) node[right] {Carbon Content (wt.\%)};
-\draw[->, thick] (0,0) -- (0,7) node[above] {Temperature (C)};
+
 
 % Grid marks
 \foreach \x in {0,2,4,6}
@@ -124,10 +122,10 @@
 
 % Labels
 \node at (3,5.5) {Liquid};
-\node[blue] at (3,4.5) {Austenite (γ)};
-\node[green] at (1,1.5) {Ferrite (α)};
+\node[blue] at (3,4.5) {Austenite ($\gamma$)};
+\node[green] at (1,1.5) {Ferrite ($\alpha$)};
 \node[red] at (4.5,1.5) {Cementite (Fe$_3$C)};
-\node at (3,3.2) {Pearlite (α+Fe$_3$C)};
+\node at (3,3.2) {Pearlite ($\alpha$+Fe$_3$C)};
 
 % Critical points
 \fill (4.3,4.5) circle (2pt) node[above right] {Eutectic (4.3\%, 1147C)};
@@ -142,109 +140,89 @@
 \node[rotate=-20] at (3,3.8) {Solidus};
 \node at (5,3.5) {Eutectoid Line};
 
+% Coordinate system
+\draw[->, thick] (0,0) -- (7,0) node[above left] {Carbon Content (wt\%C)};
+\draw[->, thick] (0,0) -- (0,7) node[below right] {Temperature ($^\circ$C)};
+
 \end{tikzpicture}
 \end{document}
 ```
 
 ```tikz
 \usepackage{tikz}
-\usepackage{amsmath}
+\usepackage{chemfig}
+\usepackage{pgfplots}
+\usepackage{amsfonts}
 
 \begin{document}
-\begin{tikzpicture}[scale=1.2]
-
-  % Axes
-  \draw[->, thick] (0,0) -- (8,0) node[right] {Wt\% C};
-  \draw[->, thick] (0,0) -- (0,7) node[above] {Temperature ($^\circ$C)};
-
-  % Temperature Lines
-  \foreach \y/\label in {1.5/727, 3.5/1147, 5.5/1495, 6/1538}
-    \draw[dashed, gray] (0,\y) -- (8,\y) node[left] {\label};
-
-  % Composition Labels
-  \foreach \x/\label in {0/0, 2/0.76, 4.3/4.3, 6.67/6.67}
-    \node[below] at (\x,0) {\label};
-
-  % Regions and Labels (Simplified)
-  \fill[green!20, opacity=0.5] (0,0) -- (2,1.5) -- (0,3.5) -- cycle;
-  \node at (1,1) {$\alpha$};
-
-  \fill[blue!20, opacity=0.5] (2,1.5) -- (4.3,3.5) -- (4.3,5.5) -- (2,3.5) -- cycle;
-  \node at (3,3) {$\gamma$};
-
-  \fill[yellow!20, opacity=0.5] (4.3,1.5) -- (6.67,5.5) -- (6.67,0) -- cycle;
-  \node at (5.5,2) {Fe$_3$C};
-
-  \fill[purple!20, opacity=0.5] (2,1.4) rectangle (2.1,1.6);
-  \node at (2,1) {Pearlite};
-
-  \fill[orange!20, opacity=0.5] (4.25,3.4) rectangle (4.35,3.6);
-  \node at (4.3,3) {Ledeburite};
-
-  \fill[red!20, opacity=0.5] (4.3,5.5) -- (8,6) -- (8,5.5) -- cycle;
-  \node at (6,5.8) {Liquid};
-
-  \fill[cyan!20, opacity=0.5] (0,5.5) -- (0.5,6) -- (0.3,5.5) -- cycle;
-  \node at (0.2,5.8) {$\delta$};
-
-  % Two-Phase Regions (Simplified)
-    %L+gamma
-  \fill[blue!10, opacity=0.5] (4.3,5.5) -- (2,3.5) -- (4.3,3.5) -- (4.3,6);
-  \node at (3.5,4.5) {L + $\gamma$};
-    %L+Fe3C
-  \fill[yellow!10, opacity=0.5] (4.3,5.5) -- (6.67,5.5) -- (6.67,6) -- (4.3,6);
-  \node at (5.5,5.8) {L + Fe$_3$C};
-    %gamma+Fe3C
-  \fill[blue!10, opacity=0.5] (4.3,1.5) -- (4.3,3.5) -- (6.67,5.5) -- (4.3,5.5);
-  \node at (5.2,3) {$\gamma$ + Fe$_3$C};
-    %alpha+Fe3C
-  \fill[green!10, opacity=0.5] (2,1.5) -- (4.3,1.5) -- (4.3,3.5) -- (2,1.5);
-  \node at (3,2) {$\alpha$ + Fe$_3$C};
-
-  % Lines between regions (Simplified)
-  \draw (2,1.5) -- (4.3,3.5) -- (4.3,5.5) -- (6.67,5.5);
-  \draw (0,3.5) -- (2,1.5);
-  \draw (0,5.5) -- (0.5,6);
-
-  % Title
-  \node at (4,7) {Fe-C Phase Diagram};
-
-\end{tikzpicture}
-\end{document}
-```
-
-
-```tikz
-\usepackage{tikz}
-
-\begin{document}
-
 \begin{tikzpicture}
-    % Axes
-    \draw[thick,->] (0,0) -- (7,0) node[right] {Composition (\%)};
-    \draw[thick,->] (0,0) -- (0,6) node[above] {Temperature ($^\circ$C)};
 
-    % Phase regions
-    \draw[thick] (0,5) .. controls (3,4.5) .. (6,5); % Liquidus
-    \draw[thick] (0,3) .. controls (2,3.5) .. (6,3); % Solidus
-    \draw[thick] (2,3) -- (2,5); % Eutectic Line
-    \draw[thick, dashed] (4,1.5) -- (4,5); % Eutectoid Line
+  % Graph 1: Crystalline (Ordered)
+  \begin{scope}[shift={(0,0)}]
 
-    % Labels
-    \node at (1,5.5) {Liquid};
-    \node at (4,4) {Austenite};
-    \node at (5,2.5) {Ferrite + Cementite};
-    \node at (2,2.5) {Ferrite};
-    \node[below] at (2,0) {Eutectic Point};
-    \node[below] at (4,0) {Eutectoid Point};
+  \node[anchor=south] at (1.5,-0.7) {Crystalline (Ordered)};
 
-    % Eutectic and Eutectoid Points
-    \filldraw[red] (2,3) circle (2pt);
-    \filldraw[blue] (4,1.5) circle (2pt);
-    
+  \foreach \x in {0,0.5,...,3}
+    \foreach \y in {0,0.5,...,2}
+      \fill (\x,\y) circle (2pt);
+
+  \foreach \x in {0,0.5,...,2.5}
+    \foreach \y in {0,0.5,...,2}
+      \draw (\x,\y) -- (\x+0.5,\y);
+
+  \foreach \x in {0,0.5,...,3}
+    \foreach \y in {0,0.5,...,1.5}
+      \draw (\x,\y) -- (\x,\y+0.5);
+  \end{scope}
+
+  % Graph 2: Amorphous (Disordered)
+  \begin{scope}[shift={(5,0)}]
+\node[anchor=south] at (2,-0.5) {Amorphous (Disordered)}; 
+\foreach \x in {0,0.5,...,3} 
+\foreach \y in {0,0.5,...,2} 
+\fill (\x+rand*0.2,\y+rand*0.2) circle (2pt); 
+
+  \end{scope}
+
+  % Graph 3: Grain Boundaries (Polycrystalline)
+  \begin{scope}[shift={(10,0)}]
+    \node[anchor=south] at (2,-0.5) {Polycrystalline (Grain Boundaries)};
+
+    % Grain 1 (Lower Left)
+    \begin{scope}[shift={(0,0)}]
+      \foreach \x in {0,0.5,...,1.5}
+        \foreach \y in {0,0.5,...,1}
+          \fill (\x,\y) circle (2pt);
+    \end{scope}
+
+    % Grain 2 (Upper Right)
+    \begin{scope}[shift={(2,1)}]
+      \foreach \x in {0,0.5,...,1.5}
+        \foreach \y in {0,0.5,...,1}
+          \fill (\x+rand*0.1,\y+rand*0.1) circle (2pt);
+    \end{scope}
+
+    % Grain 3 (Lower Right)
+    \begin{scope}[shift={(2,0)}]
+        \foreach \x in {0,0.5,...,1.5}
+        \foreach \y in {0,0.5,...,1}
+        \fill (\x+rand*0.1,\y+rand*0.1) circle (2pt);
+    \end{scope}
+
+    % Grain 4 (Upper Left)
+    \begin{scope}[shift={(0,1)}]
+        \foreach \x in {0,0.5,...,1.5}
+        \foreach \y in {0,0.5,...,1}
+        \fill (\x,\y+rand*0.1) circle (2pt);
+    \end{scope}
+
+    %Grain boundaries (random dots)
+    \foreach \x in {1.6,1.7,1.8,1.9,2.1}
+        \foreach \y in {0.9,1,1.1}
+            \fill (\x,\y) circle (1pt);
+
+  \end{scope}
+
 \end{tikzpicture}
-
 \end{document}
-
 ```
-
