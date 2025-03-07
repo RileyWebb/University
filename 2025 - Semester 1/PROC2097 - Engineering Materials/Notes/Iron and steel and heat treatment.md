@@ -1,14 +1,16 @@
-**Types of Steel:**
+### Types of Steel:
 - Stainless Steel aka. corrosion-resistant steel **CRES**
 - Mild Steel aka. Low Carbon Steel (between 0.05-0.25% carbon content)
 - Alloyed Steel (usually alloyed with nickel and chromium)
 - Tool Steel (abrasion resistant steel)
 
-**Types of Iron:**
+### Types of Iron:
 - Cast Iron (higher than 2% carbon content and silicon content between 1–3%)
 - Pig iron (between 2-4.5% carbon content)
 - Steel (between 0.25-2% carbon content)
 - Wrought Iron (less than 0.25% carbon content)
+
+### Phases of Metal:
 
 | Phase            | State      | Structure          | Ductility/Hardness              | Example                    |
 | ---------------- | ---------- | ------------------ | ------------------------------- | -------------------------- |
@@ -22,46 +24,39 @@
 
 **Annealing:**
 
-```
-\usepackage{pgfplots}
+```tikz
+\usepackage{tikz}
+
 \begin{document}
 
 \begin{tikzpicture}
-    \begin{axis}[
-        axis lines=middle,
-        xlabel={Time (s)},
-        ylabel={Temperature (°C)},
-        xmin=0, xmax=12,
-        ymin=0, ymax=1000,
-        xtick={0,2,4,6,8,10,12},
-        ytick={0,200,400,600,800,1000},
-        grid=major,
-        samples=100,
-        domain=0:12
-    ]
-        % Full Annealing
-        \addplot[blue, thick] coordinates {
-            (0, 25) (2, 900) (4, 900) (6, 500) (8, 300) (10, 25)
-        };
-        
-        % Partial Annealing
-        \addplot[red, thick, dashed] coordinates {
-            (0, 25) (2, 750) (4, 750) (6, 500) (8, 300) (10, 25)
-        };
-        
-        % Subcritical Annealing
-        \addplot[green, thick, dotted] coordinates {
-            (0, 25) (2, 600) (4, 600) (6, 500) (8, 300) (10, 25)
-        };
-        
-        % Labels
-        \node[above] at (axis cs:2,900) {Full Annealing};
-        \node[above] at (axis cs:2,750) {Partial Annealing};
-        \node[above] at (axis cs:2,600) {Subcritical Annealing};
-    \end{axis}
+    % Axes
+    \draw[thick,->] (0,1) -- (7,1) node[right] {Time};
+    \draw[thick,->] (0,1) -- (0,6) node[above] {Temperature ($^\circ$C)};
+    
+    % Critical temperatures
+    \draw[dashed] (0,5) -- (6.5,5) node[right] {A3 (Austenite Formation)};
+    \draw[dashed] (0,3) -- (6.5,3) node[right] {A1 (Eutectoid Temperature)};
+
+    % Full Annealing Curve
+    \draw[thick,red] (1,1) .. controls (1.5,5.5) and (3,5.5) .. (4,5)
+                        .. controls (4.5,4.5) and (5,3) .. (6,1);
+    \node[right, red] at (6,5.5) {Full Annealing};
+
+    % Partial Annealing Curve
+    \draw[thick,blue] (1.5,1) .. controls (2,3.8) and (3,3.8) .. (4,3.5)
+                        .. controls (4.5,3.2) and (5,2.5) .. (5.5,1);
+    \node[right, blue] at (5.5,3.8) {Partial Annealing};
+
+    % Subcritical Annealing Curve
+    \draw[thick,green] (2,1) .. controls (2.5,2.5) and (3,2.5) .. (3.5,2.2)
+                        .. controls (4,2) and (4.5,1.8) .. (5,1);
+    \node[right, green] at (5,2.5) {Subcritical Annealing};
+
 \end{tikzpicture}
 
 \end{document}
+
 ```
 
 curie point
