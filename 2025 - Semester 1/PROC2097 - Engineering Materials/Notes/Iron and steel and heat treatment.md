@@ -94,66 +94,56 @@
 
 ```tikz
 \begin{document}
-% In this diagram:
-% - The horizontal axis is the carbon content in wt% (scaled so that 1 wt% = 25 units).
-%   (Thus 0.76 wt% is at x = 0.76*25 = 19, 4.3 wt% is at x = 107.5, and 6.67 wt% is about x = 167.)
-% - The vertical axis is temperature in °C.
-% - Key critical points (Eutectoid and Eutectic) are marked.
-\begin{tikzpicture}[scale=0.05]
-    % Draw axes
-    \draw[->, thick] (0,0) -- (170,0) node[right] {Carbon Content (wt\%)};
-    \draw[->, thick] (0,0) -- (0,1600) node[above] {Temperature (C)};
-    
-    % X-axis ticks and labels (using our scaling: 1 wt% = 25 units)
-    \draw (0,0) -- (0,-20) node[below] {0};
-    \draw (19,0) -- (19,-20) node[below] {0.76};
-    \draw (107.5,0) -- (107.5,-20) node[below] {4.3};
-    \draw (167,0) -- (167,-20) node[below] {6.67};
-    
-    % Y-axis ticks and labels (temperatures in °C)
-    \draw (0,727) -- (-10,727) node[left] {727};
-    \draw (0,1147) -- (-10,1147) node[left] {1147};
-    \draw (0,1538) -- (-10,1538) node[left] {1538};
-    
-    % Draw dashed lines for key boundaries
-    % Vertical lines at the eutectoid and eutectic compositions:
-    \draw[dashed] (19,0) -- (19,1600);
-    \draw[dashed] (107.5,0) -- (107.5,1600);
-    % Horizontal lines at key temperatures:
-    \draw[dashed] (0,727) -- (167,727);
-    \draw[dashed] (0,1147) -- (167,1147);
-    \draw[dashed] (0,1538) -- (167,1538);
-    
-    % Fill phase regions with colors
-    % 1. Ferrite (α): low carbon (<0.76 wt%) and low temperature (below 727°C)
-    \fill[red!30] (0,0) rectangle (19,727);
-    \node at (9.5,360) {Ferrite ($\alpha$)};
-    
-    % 2. Austenite (γ): roughly between 0 wt% and 4.3 wt% C, above 727°C.
-    % Here we approximate its region as the triangle joining (0,727), (0,1538) and (107.5,1147)
-    \fill[blue!30] (0,727) -- (0,1538) -- (107.5,1147) -- cycle;
-    \node at (35,1200) {Austenite ($\gamma$)};
-    
-    % 3. Cementite (Fe$_3$C): high-carbon region (4.3–6.67 wt% C) at lower temperatures (below 1147°C)
-    \fill[orange!30] (107.5,0) rectangle (167,1147);
-    \node at (137,570) {Cementite (Fe$_3$C)};
-    
-    % 4. Liquid: region above the liquidus. We approximate the liquid area as the polygon
-    % bounded by (0,1538), (107.5,1147), (167,1200), (167,1600) and (0,1600)
-    \fill[yellow!30] (0,1538) -- (107.5,1147) -- (167,1200) -- (167,1600) -- (0,1600) -- cycle;
-    \node at (100,1550) {Liquid};
-    
-    % Mark key transformation points
-    % Eutectoid point (where austenite transforms to ferrite + cementite)
-    \filldraw (19,727) circle (4);
-    \node[above right] at (19,727) {Eutectoid (0.76\%, 727C)};
-    
-    % Eutectic point (where liquid transforms to austenite + cementite in cast iron)
-    \filldraw (107.5,1147) circle (4);
-    \node[above right] at (107.5,1147) {Eutectic (4.3\%, 1147C)};
+\begin{tikzpicture}[scale=0.8]
+
+% Coordinate system
+\draw[->, thick] (0,0) -- (8,0) node[right] {Carbon Content (wt.\%)};
+\draw[->, thick] (0,0) -- (0,7) node[above] {Temperature (C)};
+
+% Grid marks
+\foreach \x in {0,2,4,6}
+    \draw (\x,0) -- (\x,-0.1) node[below] {\x};
+\foreach \y in {0,2,4,6}
+    \draw (0,\y) -- (-0.1,\y) node[left] {\pgfmathparse{int(\y*200)}\pgfmathresult};
+
+% Phase boundaries
+\draw[thick] (0,6) -- (6,3); % Liquidus
+\draw[thick] (0,5) -- (6,3); % Solidus
+\draw[thick] (0,3.5) -- (6,3.5); % Eutectoid line
+\draw[thick] (2,6) to[out=-80,in=150] (4.3,4.5) to[out=-30,in=180] (6,3.8);
+
+% Phase regions
+% Liquid (yellow)
+\fill[yellow!20] (0,6) -- (6,3) -- (6,6) -- cycle;
+% Austenite (blue)
+\fill[blue!20] (0,5) -- (6,3) -- (6,3.5) -| (0,3.5) -- cycle;
+% Ferrite (green)
+\fill[green!20] (0,0) rectangle (2.3,3.5);
+% Cementite (red)
+\fill[red!20] (2.3,3.5) rectangle (6,0);
+
+% Labels
+\node at (3,5.5) {Liquid};
+\node[blue] at (3,4.5) {Austenite (γ)};
+\node[green] at (1,1.5) {Ferrite (α)};
+\node[red] at (4.5,1.5) {Cementite (Fe$_3$C)};
+\node at (3,3.2) {Pearlite (α+Fe$_3$C)};
+
+% Critical points
+\fill (4.3,4.5) circle (2pt) node[above right] {Eutectic (4.3\%, 1147C)};
+\fill (2.3,3.5) circle (2pt) node[below right] {Eutectoid (0.76\%, 727C)};
+
+% Dashed composition lines
+\draw[dashed] (2.3,0) -- (2.3,3.5);
+\draw[dashed] (4.3,0) -- (4.3,4.5);
+
+% Boundary labels
+\node[rotate=-20] at (3.5,4.2) {Liquidus};
+\node[rotate=-20] at (3,3.8) {Solidus};
+\node at (5,3.5) {Eutectoid Line};
+
 \end{tikzpicture}
 \end{document}
-
 ```
 
 ```tikz
