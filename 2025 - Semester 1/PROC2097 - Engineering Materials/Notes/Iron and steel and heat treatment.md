@@ -12,7 +12,7 @@
 
 **Annealing:**
 
-```
+```tikz
 \usepackage{pgfplots}
 \begin{document}
 
@@ -102,96 +102,61 @@ curie point
 
 
 
-```
-
-\usepackage{pgfplots}
-%\pgfplotsset{compat=1.18}
-
-\begin{document}
-
-\begin{tikzpicture}
-    \begin{axis}[
-        xlabel={Carbon Content (wt\%)},
-        ylabel={Temperature (°C)},
-        xmin=0, xmax=6.7,
-        ymin=0, ymax=1600,
-        xtick={0, 0.76, 2.14, 4.3, 6.7},
-        ytick={0, 727, 1147, 1495},
-        ]
-
-        % Phase boundaries
-        \addplot[domain=0:6.7, samples=200, thick] {1538 - 73.3*x}; % Liquidus line
-        \addplot[domain=0:4.3, samples=200, thick] {1495 - 114.3*x}; % Solidus line
-        \addplot[domain=0:0.76, samples=200, thick] {912 + 0*x}; % A1 line
-        \addplot[domain=0.76:2.14, samples=200, thick] {727 + 0*x}; % A1 line
-        \addplot[domain=2.14:6.7, samples=200, thick] {1147 - 114.3*(x-2.14)}; % A3 line
-
-        % Labels for phases
-        \node at (axis cs:1.5,1400) {Liquid};
-        \node at (axis cs:1.5,1000) {Austenite ($\gamma$)};
-        \node at (axis cs:1.5,800) {Ferrite ($\alpha$)};
-        \node at (axis cs:3.5,1000) {Cementite (Fe$_3$C)};
-
-        % Eutectic and Eutectoid points
-        \node[pin={[pin edge={thick}]120:Eutectic (4.3\%, 1147°C)}] at (axis cs:4.3,1147) {};
-        \node[pin={[pin edge={thick}]120:Eutectoid (0.76\%, 727°C)}] at (axis cs:0.76,727) {};
-
-    \end{axis}
-\end{tikzpicture}
-
-\end{document}
-```
-
-### Brinell Hardness Number:
-
 ```tikz
 \usepackage{tikz}
 \usepackage{amsmath}
 
 \begin{document}
-\begin{tikzpicture}[scale=1.5]
+\begin{tikzpicture}[scale=1.2]
 
-  % Indenter (Ball)
-  \draw[fill=gray!50] (0,0) circle (1);
-  \draw (0,0) circle (1);
+  % Axes
+  \draw[->, thick] (0,0) -- (8,0) node[right] {Composition (e.g., % Carbon)};
+  \draw[->, thick] (0,0) -- (0,6) node[above] {Temperature};
 
-  % Material Surface
-  \draw (-2,-1.5) -- (2,-1.5) -- (2,-2.5) -- (-2,-2.5) -- cycle;
+  % Eutectic Point
+  \draw[fill=red] (4,2) circle (0.1) node[above right] {Eutectic Point};
 
-  % Indentation
-  \begin{scope}
-    \clip (0,-2) circle (1);
-    \clip (-2,-1.5) rectangle (2,-2.5);
-    %\draw[fill=white] (0,0) circle (1);
-  \end{scope}
+  % Austenite Region
+  \draw[fill=blue!20, opacity=0.5] (1,3) -- (6,5) -- (6,3) -- (1,1) -- cycle;
+  \node at (3.5,4) {Austenite ($\gamma$)};
 
-  % Diameter of Indenter (D)
-  \draw[<->, white, thick] (-1,0) -- (1,0);
-  \node[above, white] at (0,0) {$D$};
+  % Ferrite Region
+  \draw[fill=green!20, opacity=0.5] (0,0) -- (1,1) -- (1,3) -- (0,2) -- cycle;
+  \node at (0.5,1.5) {Ferrite ($\alpha$)};
 
-  % Diameter of Indentation (d)
-  \draw[<->] (-0.8,-2) -- (0.8,-2);
-  \node[below] at (0,-2) {$d$};
+  % Cementite Region
+  \draw[fill=yellow!20, opacity=0.5] (6,0) -- (7,1) -- (7,3) -- (6,3) -- cycle;
+  \node at (6.5,2) {Cementite (Fe$_3$C)};
 
-  % Force (F)
-  \draw[->, thick] (0,1.5) -- (0,1);
-  \node[above] at (0,1.5) {$F$};
+  % Pearlite Region (Simplified, usually within Eutectoid)
+  \draw[fill=purple!20, opacity=0.5] (3.8,1.8) rectangle (4.2,2.2);
+  \node at (4,1.5) {Pearlite};
 
-  % Brinell Hardness Number (BHN) Formula
-  \node[below] at (0,-3) {
-    $\text{BHN} = \frac{2P}{\pi D (D - \sqrt{D^2 - d^2})}$
-  };
+  % Liquid Region
+  \draw[fill=orange!20, opacity=0.5] (3,5) -- (5,5.8) -- (8,5.8) -- (8,4) -- (6,3) -- cycle;
+  \node at (6,5) {Liquid};
 
-  % Annotations
-  \node[left] at (-1.5,0) {Indenter (Ball)};
-  \node[right] at (1.5,-2) {Indentation};
-  %\node[left] at (-1.5,-2) {Material};
+  % Lines separating regions
+  \draw (1,1) -- (1,3);
+  \draw (6,3) -- (1,3);
+  \draw (6,3) -- (7,3);
+  \draw (3,5) -- (6,5);
+  \draw (5,5.8) -- (6,3);
+  \draw (7,1) -- (7,3);
+
+  % Labels for important points
+  \node[below] at (0,0) {0};
+  \node[below] at (4,0) {Eutectic Composition};
+  \node[below] at (7,0) {Max Carbon};
+
+  \node[left] at (0,2) {Temperature 1};
+  \node[left] at (0,3) {Temperature 2};
+  \node[left] at (0,5) {Temperature 3};
+
+  % Add a title
+  \node at (4,6.5) {Simplified Metal Phase Diagram};
 
 \end{tikzpicture}
 \end{document}
 ```
 
-where;
-$P$ is the force in Kilograms,
-$D$ is the diameter of the sphere in Millimetres,
-and $d$ is the diameter of the indent in Millimetres.
