@@ -12,7 +12,7 @@
 
 **Annealing:**
 
-```tikz
+```
 \usepackage{pgfplots}
 \begin{document}
 
@@ -104,59 +104,35 @@ curie point
 
 ```tikz
 \usepackage{tikz}
-\usepackage{amsmath}
 
 \begin{document}
-\begin{tikzpicture}[scale=1.2]
 
-  % Axes
-  \draw[->, thick] (0,0) -- (8,0) node[right] {Composition (e.g., % Carbon)};
-  \draw[->, thick] (0,0) -- (0,6) node[above] {Temperature};
+\begin{tikzpicture}
+    % Axes
+    \draw[thick,->] (0,0) -- (7,0) node[right] {Composition (\%)};
+    \draw[thick,->] (0,0) -- (0,6) node[above] {Temperature ($^\circ$C)};
 
-  % Eutectic Point
-  \draw[fill=red] (4,2) circle (0.1) node[above right] {Eutectic Point};
+    % Phase regions
+    \draw[thick] (0,5) .. controls (3,4.5) .. (6,5); % Liquidus
+    \draw[thick] (0,3) .. controls (2,3.5) .. (6,3); % Solidus
+    \draw[thick] (2,3) -- (2,5); % Eutectic Line
+    \draw[thick, dashed] (4,1.5) -- (4,5); % Eutectoid Line
 
-  % Austenite Region
-  \draw[fill=blue!20, opacity=0.5] (1,3) -- (6,5) -- (6,3) -- (1,1) -- cycle;
-  \node at (3.5,4) {Austenite ($\gamma$)};
+    % Labels
+    \node at (1,5.5) {Liquid};
+    \node at (4,4) {Austenite};
+    \node at (5,2.5) {Ferrite + Cementite};
+    \node at (2,2.5) {Ferrite};
+    \node[below] at (2,0) {Eutectic Point};
+    \node[below] at (4,0) {Eutectoid Point};
 
-  % Ferrite Region
-  \draw[fill=green!20, opacity=0.5] (0,0) -- (1,1) -- (1,3) -- (0,2) -- cycle;
-  \node at (0.5,1.5) {Ferrite ($\alpha$)};
-
-  % Cementite Region
-  \draw[fill=yellow!20, opacity=0.5] (6,0) -- (7,1) -- (7,3) -- (6,3) -- cycle;
-  \node at (6.5,2) {Cementite (Fe$_3$C)};
-
-  % Pearlite Region (Simplified, usually within Eutectoid)
-  \draw[fill=purple!20, opacity=0.5] (3.8,1.8) rectangle (4.2,2.2);
-  \node at (4,1.5) {Pearlite};
-
-  % Liquid Region
-  \draw[fill=orange!20, opacity=0.5] (3,5) -- (5,5.8) -- (8,5.8) -- (8,4) -- (6,3) -- cycle;
-  \node at (6,5) {Liquid};
-
-  % Lines separating regions
-  \draw (1,1) -- (1,3);
-  \draw (6,3) -- (1,3);
-  \draw (6,3) -- (7,3);
-  \draw (3,5) -- (6,5);
-  \draw (5,5.8) -- (6,3);
-  \draw (7,1) -- (7,3);
-
-  % Labels for important points
-  \node[below] at (0,0) {0};
-  \node[below] at (4,0) {Eutectic Composition};
-  \node[below] at (7,0) {Max Carbon};
-
-  \node[left] at (0,2) {Temperature 1};
-  \node[left] at (0,3) {Temperature 2};
-  \node[left] at (0,5) {Temperature 3};
-
-  % Add a title
-  \node at (4,6.5) {Simplified Metal Phase Diagram};
-
+    % Eutectic and Eutectoid Points
+    \filldraw[red] (2,3) circle (2pt);
+    \filldraw[blue] (4,1.5) circle (2pt);
+    
 \end{tikzpicture}
+
 \end{document}
+
 ```
 
