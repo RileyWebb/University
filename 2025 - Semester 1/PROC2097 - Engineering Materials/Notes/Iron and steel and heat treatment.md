@@ -145,44 +145,52 @@ curie point
 ### Brinell Hardness Number:
 
 ```tikz
-%\akda
 \usepackage{tikz}
+\usepackage{amsmath}
+
 \begin{document}
+\begin{tikzpicture}[scale=1.5]
 
-%\begin{center}
-    \begin{tikzpicture}
-        % Material surface
-        \draw[thick] (-3,0) -- (3,0);
+  % Indenter (Ball)
+  \draw[fill=gray!50] (0,0) circle (1);
+  \draw (0,0) circle (1);
 
-        % Indentation
-        \draw[thick] (0,0) arc[start angle=0,end angle=180,radius=1.5];
+  % Material Surface
+  \draw (-2,-1.5) -- (2,-1.5) -- (2,-2.5) -- (-2,-2.5) -- cycle;
 
-        % Indenter (Steel/WC Ball)
-        \draw[thick] (0,2) circle(1.5);
-        
-        % Load Arrow
-        \draw[thick,->] (0,3) -- (0,2) node[midway,right] {\Huge $\downarrow$};
-        \node[above] at (0,3.2) {\textbf{Load (F)}};
+  % Indentation
+  \begin{scope}
+    \clip (0,-2) circle (1);
+    \clip (-2,-1.5) rectangle (2,-2.5);
+    %\draw[fill=white] (0,0) circle (1);
+  \end{scope}
 
-        % Labels
-        \node[left] at (-1.5, 0.6) {\textbf{Indentation Diameter (D)}};
-        \node[above] at (0,2.2) {\textbf{Indenter Diameter (d)}};
+  % Diameter of Indenter (D)
+  \draw[<->, white, thick] (-1,0) -- (1,0);
+  \node[above, white] at (0,0) {$D$};
 
-        % Dimension lines
-        \draw[thick, <->] (-1.5,-0.3) -- (1.5,-0.3);
-        \node[below] at (0,-0.5) {Indentation Diameter ($D$)};
-        
-        \draw[thick, <->] (-1.5,2) -- (1.5,2);
-        \node[above] at (0,3) {Indenter Diameter ($d$)};
+  % Diameter of Indentation (d)
+  \draw[<->] (-0.8,-2) -- (0.8,-2);
+  \node[below] at (0,-2) {$d$};
 
-    \end{tikzpicture}
-%\end{center}
+  % Force (F)
+  \draw[->, thick] (0,1.5) -- (0,1);
+  \node[above] at (0,1.5) {$F$};
 
+  % Brinell Hardness Number (BHN) Formula
+  \node[below] at (0,-3) {
+    $\text{BHN} = \frac{2P}{\pi D (D - \sqrt{D^2 - d^2})}$
+  };
+
+  % Annotations
+  \node[left] at (-1.5,0) {Indenter (Ball)};
+  \node[right] at (1.5,-2) {Indentation};
+  %\node[left] at (-1.5,-2) {Material};
+
+\end{tikzpicture}
 \end{document}
-
 ```
 
-$BHN=\dfrac{2P}{πD(D−\sqrt{ D^2−d^2​ })}$
 where;
 $P$ is the force in Kilograms,
 $D$ is the diameter of the sphere in Millimetres,
