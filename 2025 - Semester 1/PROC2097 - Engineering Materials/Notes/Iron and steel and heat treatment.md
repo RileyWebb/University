@@ -141,3 +141,49 @@ curie point
 
 \end{document}
 ```
+
+### Brinell Hardness Number:
+
+```tikz
+%\akda
+\usepackage{tikz}
+\begin{document}
+
+%\begin{center}
+    \begin{tikzpicture}
+        % Material surface
+        \draw[thick] (-3,0) -- (3,0);
+
+        % Indentation
+        \draw[thick] (0,0) arc[start angle=0,end angle=180,radius=1.5];
+
+        % Indenter (Steel/WC Ball)
+        \draw[thick] (0,2) circle(1.5);
+        
+        % Load Arrow
+        \draw[thick,->] (0,3) -- (0,2) node[midway,right] {\Huge $\downarrow$};
+        \node[above] at (0,3.2) {\textbf{Load (F)}};
+
+        % Labels
+        \node[left] at (-1.5, 0.6) {\textbf{Indentation Diameter (D)}};
+        \node[above] at (0,2.2) {\textbf{Indenter Diameter (d)}};
+
+        % Dimension lines
+        \draw[thick, <->] (-1.5,-0.3) -- (1.5,-0.3);
+        \node[below] at (0,-0.5) {Indentation Diameter ($D$)};
+        
+        \draw[thick, <->] (-1.5,2) -- (1.5,2);
+        \node[above] at (0,3) {Indenter Diameter ($d$)};
+
+    \end{tikzpicture}
+%\end{center}
+
+\end{document}
+
+```
+
+$BHN=\dfrac{2P}{πD(D−\sqrt{ D^2−d^2​ })}$
+where;
+$P$ is the force in Kilograms,
+$D$ is the diameter of the sphere in Millimetres,
+and $d$ is the diameter of the indent in Millimetres.

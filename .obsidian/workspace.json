@@ -72,12 +72,14 @@
             "id": "f965f20dd5a24a6e",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "2025 - Semester 1/PROC2097 - Engineering Materials/Assignments/Tutorial 4 _Eng Materials _SP-2.pdf"
+                "file": "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Iron and steel and heat treatment.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Tutorial 4 _Eng Materials _SP-2"
+              "icon": "lucide-file",
+              "title": "Iron and steel and heat treatment"
             }
           }
         ],
@@ -135,7 +137,7 @@
             }
           },
           {
-            "id": "071edb24c2bb3120",
+            "id": "2e2b930779d14388",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -279,17 +281,19 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "36251642d2fb84fb",
+  "active": "f965f20dd5a24a6e",
   "lastOpenFiles": [
-    "2025 - Semester 1/PROC2097 - Engineering Materials/Assignments/Tutorial 4 _Eng Materials _SP-2.pdf",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Assignments/Tutorial 4.md",
+    "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Iron and steel and heat treatment.md",
+    "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Basics of nature of materials.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Stress, Strain and Pressure.md",
+    "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Concepts of engineering materials.md",
+    "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Revision.md",
+    "2025 - Semester 1/PROC2097 - Engineering Materials/Assignments/Tutorial 4 _Eng Materials _SP-2.pdf",
     "2025 - Semester 1/MANU2112 - Engineering Science/Assignments/Tutorial/Tutorial problems 3-3-1.pdf",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Engineering Materials.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Non-ferrous metals and corrosion.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Materials for electric and electronics devices.md",
-    "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Iron and steel and heat treatment.md",
-    "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Basics of nature of materials.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Assignments/Tutorial 3.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Assignments/Tutorial 1.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Assignments/Untitled.md",
@@ -314,7 +318,6 @@
     "2025 - Semester 1/MATH2167 - Mathmatics 1/MATH2167 - Mathmatics 1.md",
     "Drawings/Drawings.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/PROC2097 - Engineering Materials.md",
-    "2025 - Semester 1/EEET2276 - Electrical Principles/EEET2276 - Electrical Principles.md",
     "Untitled.png",
     "Untitled.png.0.pdnSave",
     "8ab8a329d91fa64ee7d52a84bd6433ba-3514238824.png",
