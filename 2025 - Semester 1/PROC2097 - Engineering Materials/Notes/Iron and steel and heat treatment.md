@@ -93,62 +93,24 @@
 ```
 
 ```tikz
-\usepackage{pgfplots}
 \begin{document}
-
-\begin{tikzpicture}
-    \begin{axis}[
-        axis lines=middle,
-        xlabel={Carbon Content (\%)},
-        ylabel={Temperature (C)},
-        xmin=0, xmax=6.7,
-        ymin=0, ymax=1600,
-        xtick={0,0.8,2.1,4.3,6.7},
-        ytick={0,500,727,1000,1147,1300,1410,1493,1538},
-        grid=major,
-        samples=100,
-        domain=0:6.7
-    ]
-        % Liquidus line
-        \addplot[red, thick] coordinates {(0,1538) (0.8,1493) (2.1,1410) (4.3,1300) (6.7,1147)};
-        
-        % Solidus line
-        \addplot[blue, thick] coordinates {(0,1538) (0.8,1435) (2.1,1130) (4.3,1000) (6.7,727)};
-        
-        % Eutectoid horizontal line
-        \addplot[dashed, black, thick] coordinates {(0,727) (6.7,727)};
-        
-        % Eutectic horizontal line
-        \addplot[dashed, black, thick] coordinates {(0,1147) (6.7,1147)};
-        
-        % Phase labels
-        \node[above] at (axis cs:0.8,1493) {Eutectic Point};
-        \node[above] at (axis cs:2.1,1410) {Eutectoid Point};
-        \node[below] at (axis cs:4.3,1000) {Cementite};
-        \node[right] at (axis cs:6.7,727) {Fe$_3$C};
-        \node[left] at (axis cs:0.2,1200) {Austenite};
-        \node[left] at (axis cs:0.2,600) {Ferrite + Cementite};
-        \node[left] at (axis cs:3,1200) {Liquid + Austenite};
-        \node[left] at (axis cs:3,900) {Pearlite + Cementite};
-    \end{axis}
-\end{tikzpicture}
-
-\end{document}
-```
-
-```tikz
-\begin{document}
-\begin{tikzpicture}
+% In this diagram:
+% - The horizontal axis is the carbon content in wt% (scaled so that 1 wt% = 25 units).
+%   (Thus 0.76 wt% is at x = 0.76*25 = 19, 4.3 wt% is at x = 107.5, and 6.67 wt% is about x = 167.)
+% - The vertical axis is temperature in °C.
+% - Key critical points (Eutectoid and Eutectic) are marked.
+\begin{tikzpicture}[scale=0.05]
     % Draw axes
-    \draw[->, thick] (0,0) -- (170,0) node[right] {Carbon Content (wt)};
+    \draw[->, thick] (0,0) -- (170,0) node[right] {Carbon Content (wt\%)};
     \draw[->, thick] (0,0) -- (0,1600) node[above] {Temperature (C)};
     
+    % X-axis ticks and labels (using our scaling: 1 wt% = 25 units)
     \draw (0,0) -- (0,-20) node[below] {0};
     \draw (19,0) -- (19,-20) node[below] {0.76};
     \draw (107.5,0) -- (107.5,-20) node[below] {4.3};
     \draw (167,0) -- (167,-20) node[below] {6.67};
     
-    % Y-axis ticks and labels (temperatures in C)
+    % Y-axis ticks and labels (temperatures in °C)
     \draw (0,727) -- (-10,727) node[left] {727};
     \draw (0,1147) -- (-10,1147) node[left] {1147};
     \draw (0,1538) -- (-10,1538) node[left] {1538};
@@ -163,16 +125,16 @@
     \draw[dashed] (0,1538) -- (167,1538);
     
     % Fill phase regions with colors
-    % 1. Ferrite (α): low carbon (<0.76 wt%) and low temperature (below 727C)
+    % 1. Ferrite (α): low carbon (<0.76 wt%) and low temperature (below 727°C)
     \fill[red!30] (0,0) rectangle (19,727);
     \node at (9.5,360) {Ferrite ($\alpha$)};
     
-    % 2. Austenite (γ): roughly between 0 wt% and 4.3 wt% C, above 727C.
+    % 2. Austenite (γ): roughly between 0 wt% and 4.3 wt% C, above 727°C.
     % Here we approximate its region as the triangle joining (0,727), (0,1538) and (107.5,1147)
     \fill[blue!30] (0,727) -- (0,1538) -- (107.5,1147) -- cycle;
     \node at (35,1200) {Austenite ($\gamma$)};
     
-    % 3. Cementite (Fe$_3$C): high-carbon region (4.3–6.67 wt% C) at lower temperatures (below 1147C)
+    % 3. Cementite (Fe$_3$C): high-carbon region (4.3–6.67 wt% C) at lower temperatures (below 1147°C)
     \fill[orange!30] (107.5,0) rectangle (167,1147);
     \node at (137,570) {Cementite (Fe$_3$C)};
     
@@ -183,12 +145,12 @@
     
     % Mark key transformation points
     % Eutectoid point (where austenite transforms to ferrite + cementite)
-    \filldraw (19,727) circle (4pt);
-    \node[above right] at (19,727) {Eutectoid (0.76, 727C)};
+    \filldraw (19,727) circle (4);
+    \node[above right] at (19,727) {Eutectoid (0.76\%, 727C)};
     
     % Eutectic point (where liquid transforms to austenite + cementite in cast iron)
-    \filldraw (107.5,1147) circle (4pt);
-    \node[above right] at (107.5,1147) {Eutectic (4.3, 1147C)};
+    \filldraw (107.5,1147) circle (4);
+    \node[above right] at (107.5,1147) {Eutectic (4.3\%, 1147C)};
 \end{tikzpicture}
 \end{document}
 
