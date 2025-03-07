@@ -10,6 +10,16 @@
 - Steel (between 0.25-2% carbon content)
 - Wrought Iron (less than 0.25% carbon content)
 
+| Phase            | State      | Structure          | Ductility/Hardness              | Example                    |
+| ---------------- | ---------- | ------------------ | ------------------------------- | -------------------------- |
+| Liquid           | Molten     | No structure       | Flows freely                    | Molten Iron                |
+| Alpha (α)        | Solid      | BCC                | Soft, Ductile                   | Ferrite in Steel           |
+| Beta (β)         | Solid      | BCC                | Harder than α                   | Brass (Cu-Zn)              |
+| Austenite (γ)    | Solid      | FCC                | Ductile, High Carbon Solubility | Steel at High Temperatures |
+| Cementite (Fe₃C) | Solid      | Complex            | Very Hard, Brittle              | Iron-Carbon Alloy          |
+| Eutectic Point   | Transition | Liquid → 2 Solids  | -                               | Pb-Sn, Iron-Carbon         |
+| Eutectoid Point  | Transition | 1 Solid → 2 Solids | -                               | Pearlite in Steel          |
+
 **Annealing:**
 
 ```

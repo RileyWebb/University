@@ -51,3 +51,10 @@ where;
 $P$ is the force in Kilograms,
 $D$ is the diameter of the sphere in Millimetres,
 and $d$ is the diameter of the indent in Millimetres.
+
+# Atomic Structure
+| Structure                    | Packing Efficiency | Ductility  | Density | Examples                                  |
+| ---------------------------- | ------------------ | ---------- | ------- | ----------------------------------------- |
+| BCC (Body-Centered Cubic)    | 68%                | Low        | Medium  | Iron (Ferrite), Tungsten, Chromium        |
+| FCC (Face-Centered Cubic)    | 74%                | High       | High    | Aluminum, Copper, Gold, Silver, Austenite |
+| HCP (Hexagonal Close-Packed) | 74%                | Medium-Low | High    | Magnesium, Titanium, Zinc, Cobalt         |
