@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Polymers.md",
+                "file": "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Stress, Strain and Pressure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Polymers"
+              "title": "Stress, Strain and Pressure"
             }
           }
         ],
@@ -231,7 +231,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -251,6 +252,7 @@
   },
   "active": "34bf659f6f931219",
   "lastOpenFiles": [
+    "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Polymers.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Assignments/Quiz Revision 1.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Iron and steel and heat treatment.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Hardness, Brittleness and Atomic Structure.md",
@@ -285,7 +287,6 @@
     "Tags",
     "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/Tut 02b.pdf",
     "2025 - Semester 1/MANU2112 - Engineering Science/MANU2112 - Engineering Science.md",
-    "2025 - Semester 1/MATH2167 - Mathmatics 1/MATH2167 - Mathmatics 1.md",
     "Untitled.png",
     "Untitled.png.0.pdnSave",
     "8ab8a329d91fa64ee7d52a84bd6433ba-3514238824.png",

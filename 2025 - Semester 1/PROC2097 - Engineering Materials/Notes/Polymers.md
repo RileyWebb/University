@@ -16,8 +16,12 @@
         \node[circle, fill=white, inner sep=1pt] at (\pos) {\footnotesize C};
     }
 
-    \draw (-1,0) coordinate (O1) -- ++(0,0);
-    
+    \draw (-1.1,0) coordinate (O1) -- ++(0.95,0);
+	\draw (5.1,0) coordinate (O2) -- ++(-0.95,0);
+
+	        \node[circle, fill=white, inner sep=1pt] at (O1) {\footnotesize O};
+	        \node[circle, fill=white, inner sep=1pt] at (O2) {\footnotesize O};
+
 \end{tikzpicture}
 \end{document}
 ```
