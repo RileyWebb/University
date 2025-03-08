@@ -55,6 +55,8 @@ and $A$ is the cross-sectional area of the subject
     % Plastic deformation region
     \node[text width=3cm, align=center] at (3.75,1.5) {Plastic deformation\\ (Permanent strain)};
     
+    \node[text width=3cm, align=center] at (2.25,1.5) {Transition Region};
+    
     % Strain hardening
     \draw[->, thick] (2.5,3.4) to (3,3.7) node[right] {Strain hardening};
     
