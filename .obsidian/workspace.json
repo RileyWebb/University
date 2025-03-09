@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -104,7 +104,7 @@
             }
           },
           {
-            "id": "9e3e4f41f824b08a",
+            "id": "9b45d6c8958c9235",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -113,7 +113,8 @@
               "title": "Navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -181,13 +182,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Stress, Strain and Pressure.md",
+                "file": "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Iron and steel and heat treatment.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Stress, Strain and Pressure"
+              "title": "Outline of Iron and steel and heat treatment"
             }
           },
           {
@@ -247,12 +248,12 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "34bf659f6f931219",
+  "active": "4a45e9a6e5ac5cf0",
   "lastOpenFiles": [
-    "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Alloying, Atomic Structures and Bonding.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Stress, Strain and Pressure.md",
-    "Drawings/Drawing 2025-02-19 18.48.28.excalidraw.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Iron and steel and heat treatment.md",
+    "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Alloying, Atomic Structures and Bonding.md",
+    "Drawings/Drawing 2025-02-19 18.48.28.excalidraw.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Assignments/Tutorial 4.md",
     "Untitled.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Polymers.md",
