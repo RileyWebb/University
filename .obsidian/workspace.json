@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "suvat",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -113,13 +113,11 @@
               "title": "Navigator"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 305.5,
-    "collapsed": true
+    "width": 305.5
   },
   "right": {
     "id": "74675c047b5c64bf",
@@ -183,13 +181,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025 - Semester 1/PROC2097 - Engineering Materials/Engineering Materials.md",
+                "file": "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Iron and steel and heat treatment.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Engineering Materials"
+              "title": "Outline of Iron and steel and heat treatment"
             }
           },
           {
@@ -250,15 +248,16 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "34bf659f6f931219",
+  "active": "4f061396f58a14c3",
   "lastOpenFiles": [
+    "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Hardness, Brittleness and Atomic Structure.md",
+    "Untitled.md",
+    "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Stress, Strain and Pressure.md",
+    "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Iron and steel and heat treatment.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Polymers.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Assignments/Quiz Revision 1.md",
-    "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Iron and steel and heat treatment.md",
-    "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Hardness, Brittleness and Atomic Structure.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Materials for electric and electronics devices.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Basics of nature of materials.md",
-    "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Stress, Strain and Pressure.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Assignments/Tutorial 4.md",
     "2025 - Semester 1/MANU2112 - Engineering Science/Notes/Linear motion with constant acceleration.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Engineering Materials.md",
@@ -286,7 +285,6 @@
     "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/Tutorial 3.md",
     "Tags",
     "2025 - Semester 1/EEET2276 - Electrical Principles/Assignments/Tutorial/Tut 02b.pdf",
-    "2025 - Semester 1/MANU2112 - Engineering Science/MANU2112 - Engineering Science.md",
     "Untitled.png",
     "Untitled.png.0.pdnSave",
     "8ab8a329d91fa64ee7d52a84bd6433ba-3514238824.png",

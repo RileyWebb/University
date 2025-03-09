@@ -45,17 +45,17 @@
     % Full Annealing Curve
     \draw[thick,red] (1,1) .. controls (1.5,5.5) and (3,5.5) .. (4,5)
                         .. controls (4.5,4.5) and (5,3) .. (6,1);
-    \node[right, red] at (6,5.5) {Full Annealing};
+    \node[right, red] at (2,5.5) {Full Annealing};
 
     % Partial Annealing Curve
     \draw[thick,blue] (1.5,1) .. controls (2,3.8) and (3,3.8) .. (4,3.5)
                         .. controls (4.5,3.2) and (5,2.5) .. (5.5,1);
-    \node[right, blue] at (5.5,3.8) {Partial Annealing};
+    \node[right, blue] at (1.75,3.9) {Partial Annealing};
 
     % Subcritical Annealing Curve
     \draw[thick,green] (2,1) .. controls (2.5,2.5) and (3,2.5) .. (3.5,2.2)
                         .. controls (4,2) and (4.5,1.8) .. (5,1);
-    \node[right, green] at (5,2.5) {Subcritical Annealing};
+    \node[right, green] at (2,2.6) {Subcritical Annealing};
 
 \end{tikzpicture}
 
