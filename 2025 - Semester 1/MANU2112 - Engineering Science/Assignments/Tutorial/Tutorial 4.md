@@ -177,7 +177,7 @@ $v=20\cdot \sin(53^\circ)-9.8\cdot2.99\approx-13.3293\text{ m/s}$
 
 \begin{document}
 
-\begin{tikzpicture}[scale=0.2]
+\begin{tikzpicture}[scale=0.5]
     % Axes
     \draw[->] (0,0) -- (70,0) node[right] {\textbf{East}};
     \draw[->] (0,-20) -- (0,50) node[above] {\textbf{North}};
@@ -189,15 +189,15 @@ $v=20\cdot \sin(53^\circ)-9.8\cdot2.99\approx-13.3293\text{ m/s}$
     \draw[->, thick, blue] (44.1,40.8) -- (44.1,30.8) node[right] {\textbf{Wind (100 km/h)}};
 
     % Resultant velocity (actual path of the airplane)
-    \draw[->, thick, green] (0,0) -- (44.1,30.8) node[below right] {\textbf{Actual Path (35° N of E)}};
+    \draw[->, thick, green] (0,0) -- (44.1,30.8) node[below right] {\textbf{Actual Path (35$^\circ$ N of E)}};
 
     % Angle for heading
     \draw[thick] (10,0) arc[start angle=0,end angle=42.8,radius=10];
-    \node at (12,4) {\textbf{42.8°}};
+    \node at (12,4) {\textbf{42.8$^\circ$}};
 
     % Angle for actual path
     \draw[thick] (10,0) arc[start angle=0,end angle=35,radius=10];
-    \node at (15,3) {\textbf{35°}};
+    \node at (15,3) {\textbf{35$^\circ$}};
 
     % Labels
     \node at (22,-2) {\textbf{East}};
