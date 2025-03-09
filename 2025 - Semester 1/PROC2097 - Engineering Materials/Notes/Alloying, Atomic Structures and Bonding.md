@@ -1,3 +1,124 @@
+# Alloying
+---
+#AI #metallurgy 
+An **alloy** is a mixture of two or more elements, where at least one is a metal. Alloys can be classified based on how the atoms of the added element are incorporated into the metal’s crystal structure. The two main types are **Substitutional Alloys** and **Interstitial Alloys**.
+
+## Substitutional Alloy
+
+In a substitutional alloy, some atoms in the host metal's crystal lattice are **replaced (substituted)** by atoms of a different element.
+
+### Conditions for Formation:
+
+- The two metals should have **similar atomic radii** (within ~15% difference).
+- They should have **similar electronegativities** to minimize reactivity.
+- They should have the **same crystal structure** for better mixing.
+
+### Examples:
+
+- **Brass** → Copper (Cu) + Zinc (Zn)
+- **Bronze** → Copper (Cu) + Tin (Sn)
+- **Sterling Silver** → Silver (Ag) + Copper (Cu)
+
+### Properties:
+
+- Alters **hardness**, **corrosion resistance**, and **melting point**.
+- Usually retains ductility and electrical conductivity.
+
+## Interstitial Alloy
+
+In an interstitial alloy, **small atoms fit into the spaces (interstices)** between the larger metal atoms in the crystal lattice.
+
+### Conditions for Formation:
+
+- The **solute atom (smaller element)** must be significantly **smaller** than the host metal atom.
+- The small atoms should have **high bonding strength** to stabilize the structure.
+
+### Examples:
+
+- **Steel** → Iron (Fe) + Carbon (C)
+- **Stainless Steel** → Iron (Fe) + Carbon (C) + Chromium (Cr)
+- **Titanium Hydride** → Titanium (Ti) + Hydrogen (H)
+
+### Properties:
+
+- Increases **hardness**, **strength**, and **brittleness**.
+- Reduces **ductility** and **malleability**.
+
+## Comparison
+| Property                | Substitutional Alloy                                   | Interstitial Alloy                               |
+| ----------------------- | ------------------------------------------------------ | ------------------------------------------------ |
+| **Formation**           | Larger metal atoms are replaced by similar-sized atoms | Small atoms fill gaps between larger metal atoms |
+| **Atomic Size**         | Similar atomic radii                                   | Smaller atoms fit into spaces                    |
+| **Examples**            | Brass (Cu+Zn), Bronze (Cu+Sn)                          | Steel (Fe+C), Titanium Hydride (Ti+H)            |
+| **Effect on Strength**  | Moderate increase in strength                          | Significant increase in strength                 |
+| **Effect on Ductility** | Often remains ductile                                  | Reduces ductility (more brittle)                 |
+| **Effect on Hardness**  | Moderate increase                                      | Large increase in hardness                       |
+### Visualisation:
+
+```tikz
+\usepackage{tikz}
+
+\begin{document}
+
+\begin{tikzpicture}
+    % Define the lattice spacing
+    \def\latticeSpacing{1.0}
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    % Substitutional Alloy (Left)
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \begin{scope}[xshift=0cm]
+
+        % Optional: Add grid lines to represent the lattice
+        \draw[gray, thin] (0,0) grid (4*\latticeSpacing, 4*\latticeSpacing);
+
+
+        % Draw the solvent atoms (blue circles)
+        \foreach \x in {0,1,2,3,4} {
+            \foreach \y in {0,1,2,3,4} {
+                \filldraw[blue] (\x*\latticeSpacing, \y*\latticeSpacing) circle (0.2);
+            }
+        }
+
+        % Draw the solute atoms (red circles) substituting some solvent atoms
+        \filldraw[red] (1*\latticeSpacing, 2*\latticeSpacing) circle (0.2);
+        \filldraw[red] (3*\latticeSpacing, 1*\latticeSpacing) circle (0.2);
+        \filldraw[red] (4*\latticeSpacing, 3*\latticeSpacing) circle (0.2);
+
+        % Label for the substitutional alloy
+        \node[below] at (2*\latticeSpacing, -0.5) {\textbf{Substitutional Alloy}};
+    \end{scope}
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    % Interstitial Alloy (Right)
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \begin{scope}[xshift=6cm]
+    
+        % Optional: Add grid lines to represent the lattice
+        \draw[gray, thin] (0,0) grid (4*\latticeSpacing, 4*\latticeSpacing);
+        
+        % Draw the solvent atoms (larger blue circles)
+        \foreach \x in {0,1,2,3,4} {
+            \foreach \y in {0,1,2,3,4} {
+                \filldraw[blue] (\x*\latticeSpacing, \y*\latticeSpacing) circle (0.3);
+            }
+        }
+
+        % Draw the solute atoms (smaller red circles) in interstitial sites
+        \foreach \x in {0.5,1.5,2.5,3.5} {
+            \foreach \y in {0.5,1.5,2.5,3.5} {
+                \filldraw[red] (\x*\latticeSpacing, \y*\latticeSpacing) circle (0.15);
+            }
+        }
+
+        % Label for the interstitial alloy
+        \node[below] at (2*\latticeSpacing, -0.5) {\textbf{Interstitial Alloy}};
+    \end{scope}
+\end{tikzpicture}
+
+\end{document}
+```
+
 # Atomic Structures
 ---
 ## Crystalline Structures
@@ -8,18 +129,12 @@ A **crystalline atomic structure** is an ordered arrangement of atoms that follo
 
 ```tikz
 \usepackage{tikz}
-\usepackage{chemfig}
-\usepackage{pgfplots}
-\usepackage{amsfonts}
 
 \begin{document}
-\begin{tikzpicture}
+\begin{tikzpicture}[scale=2]
 
   % Graph 1: Crystalline (Ordered)
   %\begin{scope}[shift={(0,0)}]
-
-  %\node[anchor=south] at (1.5,-0.7) {Crystalline (Ordered)};
-
   \foreach \x in {0,0.5,...,3}
     \foreach \y in {0,0.5,...,2}
       \fill (\x,\y) circle (2pt);
@@ -59,7 +174,7 @@ An **amorphous atomic structure** is a disordered arrangement of atoms that lack
 ```tikz
 \usepackage{tikz}
 \begin{document}
-\begin{tikzpicture}[scale=1, every node/.style={circle,draw,fill=black,inner sep=0pt}]
+\begin{tikzpicture}[scale=2, every node/.style={circle,draw,fill=black,inner sep=0pt}]
   % Define atoms: format is index/x-coordinate/y-coordinate/size
   \foreach \n/\x/\y/\s in {
     0/0.2/0.2/0.15,
