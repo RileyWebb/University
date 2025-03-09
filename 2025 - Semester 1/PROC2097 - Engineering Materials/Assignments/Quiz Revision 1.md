@@ -5,5 +5,5 @@ week 4: " "
 
 - [[Stress, Strain and Pressure]]
 - [[Iron and steel and heat treatment]]
-- [[Hardness, Brittleness and Atomic Structure#Atomic Structure|Atomic Structure]]
+- [[Atomic Structure and Bonding#Atomic Structure|Atomic Structure]]
 - [[Polymers]]

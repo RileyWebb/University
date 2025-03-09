@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025 - Semester 1/PROC2097 - Engineering Materials/Assignments/Tutorial 4.md",
+                "file": "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Atomic Structure and Bonding.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tutorial 4"
+              "title": "Atomic Structure and Bonding"
             }
           },
           {
@@ -49,8 +49,7 @@
               "title": "Stress, Strain and Pressure"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -117,7 +116,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 305.5
+    "width": 305.5,
+    "collapsed": true
   },
   "right": {
     "id": "74675c047b5c64bf",
@@ -181,13 +181,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Iron and steel and heat treatment.md",
+                "file": "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Atomic Structure and Bonding.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Iron and steel and heat treatment"
+              "title": "Outline of Atomic Structure and Bonding"
             }
           },
           {
@@ -248,13 +248,13 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "4f061396f58a14c3",
+  "active": "bbd7d4733ca05d83",
   "lastOpenFiles": [
-    "2025 - Semester 1/PROC2097 - Engineering Materials/Assignments/Tutorial 4.md",
-    "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Hardness, Brittleness and Atomic Structure.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Iron and steel and heat treatment.md",
-    "Untitled.md",
+    "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Atomic Structure and Bonding.md",
+    "2025 - Semester 1/PROC2097 - Engineering Materials/Assignments/Tutorial 4.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Stress, Strain and Pressure.md",
+    "Untitled.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Polymers.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Assignments/Quiz Revision 1.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Materials for electric and electronics devices.md",

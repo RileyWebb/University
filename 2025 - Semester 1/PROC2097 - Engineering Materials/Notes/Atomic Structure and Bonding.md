@@ -1,7 +1,7 @@
-# Atomic Structure
-
+# Atomic Structures
+---
 ## Crystalline Structures
-#metallurgy
+#metallurgy #AI
 A **crystalline atomic structure** is an ordered arrangement of atoms that follows a repeating pattern over long distances. This structure forms a **crystal lattice**, where atoms, ions, or molecules are arranged in a highly organized and predictable way. The repeating unit in this structure is called a **unit cell**, which defines the basic building block of the crystal.
 
 **Visualisation:**
@@ -52,7 +52,7 @@ A **crystalline atomic structure** is an ordered arrangement of atoms that follo
 - **Ionic Crystals:** Materials like sodium chloride (table salt) form crystalline lattices due to electrostatic attraction between ions.
 
 ## Amorphous Structures
-#metallurgy
+#metallurgy #AI
 An **amorphous atomic structure** is a disordered arrangement of atoms that lacks long-range periodic order, distinguishing it from crystalline structures. Instead of forming a repeating lattice, atoms in an amorphous material are arranged in an irregular and non-uniform manner, similar to how atoms in a liquid are arranged but with more rigidity.
 
 **Visualisation:**
@@ -153,7 +153,7 @@ An **amorphous atomic structure** is a disordered arrangement of atoms that lack
 - **Polymers** – Many plastics, like amorphous polyethylene terephthalate (PET), have disordered structures.
 
 ## Polycrystalline Structures
-#metallurgy
+#metallurgy #AI
 A **polycrystalline structure** is composed of many small crystalline regions, called **grains**, which are randomly oriented relative to one another. Each grain has a well-defined **crystalline structure**, but the overall material lacks a single uniform crystal lattice due to the presence of **grain boundaries**, which separate different grains.
 
 **Visualisation:**
@@ -206,7 +206,7 @@ A **polycrystalline structure** is composed of many small crystalline regions, c
 - **Semiconductors** – Polycrystalline silicon (polysilicon) is used in solar cells and thin-film transistors.
 - **Ice and Rocks** – Many naturally occurring geological materials (e.g., granite) are polycrystalline.
 
-## Lattice Structures:
+## Lattice Structures
 
 > [!NOTE] 
 > This data is directly referenced from [Wikipedia](https://en.wikipedia.org/wiki/Crystal_structure#Lattice_systems)
@@ -220,57 +220,50 @@ A **polycrystalline structure** is composed of many small crystalline regions, c
 | [Hexagonal](https://en.wikipedia.org/wiki/Hexagonal_crystal_family "Hexagonal crystal family") (Rhombohedral) | $D_{3d}$          | [![Rhombohedral](https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Rhombohedral.svg/80px-Rhombohedral.svg.png)](https://en.wikipedia.org/wiki/File:Rhombohedral.svg "Rhombohedral")<br><br>hR                         |                                                                                                                                                                                                                                                                               |                                                                                                                                                                                                                                                                               |                                                                                                                                                                                                                                                                               |
 | Hexagonal                                                                                                     | $D_{6h}$          | [![Hexagonal](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Hexagonal_latticeFRONT.svg/80px-Hexagonal_latticeFRONT.svg.png)](https://en.wikipedia.org/wiki/File:Hexagonal_latticeFRONT.svg "Hexagonal")<br><br>hP |                                                                                                                                                                                                                                                                               |                                                                                                                                                                                                                                                                               |                                                                                                                                                                                                                                                                               |
 | [Cubic](https://en.wikipedia.org/wiki/Cubic_crystal_system "Cubic crystal system") (c)                        | $O_{h}$           | [![Cubic, simple](https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Cubic.svg/80px-Cubic.svg.png)](https://en.wikipedia.org/wiki/File:Cubic.svg "Cubic, simple")<br><br>cP                                            |                                                                                                                                                                                                                                                                               | [![Cubic, body-centered](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Cubic-body-centered.svg/80px-Cubic-body-centered.svg.png)](https://en.wikipedia.org/wiki/File:Cubic-body-centered.svg "Cubic, body-centered")<br><br>cI                                    | [![Cubic, face-centered](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Cubic-face-centered.svg/80px-Cubic-face-centered.svg.png)](https://en.wikipedia.org/wiki/File:Cubic-face-centered.svg "Cubic, face-centered")<br><br>cF                                    |
+## Calculating Atomic Packing Factors
 
-# Brinell Hardness Number:
 
-```tikz
-\usepackage{tikz}
-\usepackage{amsmath}
+# Atomic Bonding
+---
+#AI
+### Nonpolar Covalent Bonding
 
-\begin{document}
-\begin{tikzpicture}[scale=1.5]
+- **Description**: Electrons are shared equally between atoms with **similar electronegativity**.
+- **Example**: $O_2$ (oxygen gas), $N_2$ (nitrogen gas), $CH_4$ (methane).
+- **Strength**: Strong.
+- **Properties**: No partial charges, usually insoluble in water, low reactivity.
 
-  % Indenter (Ball)
-  \draw[fill=gray!50] (0,0) circle (1);
-  \draw (0,0) circle (1);
+### Polar Covalent Bonding
 
-  % Material Surface
-  \draw (-2,-1.5) -- (2,-1.5) -- (2,-2.5) -- (-2,-2.5) -- cycle;
+- **Description**: Electrons are **unequally shared**, causing partial charges (δ+ and δ−) due to a **difference in electronegativity**.
+- **Example**: $H_2O$ (water), $NH_3$ (ammonia), $HF$ (hydrofluoric acid).
+- **Strength**: Strong.
+- **Properties**: Partial positive/negative charges, higher solubility in water, can form hydrogen bonds.
 
-  % Indentation
-  \begin{scope}
-    \clip (0,-2) circle (1);
-    \clip (-2,-1.5) rectangle (2,-2.5);
-    %\draw[fill=white] (0,0) circle (1);
-  \end{scope}
+### Ionic Bonding
 
-  % Diameter of Indenter (D)
-  \draw[<->, white, thick] (-1,0) -- (1,0);
-  \node[above, white] at (0,0) {$D$};
+- **Description**: Complete transfer of electrons creates oppositely charged ions.
+- **Example**: $NaCl$ (table salt), $MgO$ (magnesium oxide).
+- **Strength**: Strong.
+- **Properties**: High melting/boiling points, conductive in molten/dissolved states.
 
-  % Diameter of Indentation (d)
-  \draw[<->] (-0.8,-2) -- (0.8,-2);
-  \node[below] at (0,-2) {$d$};
+### Metallic Bonding
 
-  % Force (F)
-  \draw[->, thick] (0,1.5) -- (0,1);
-  \node[above] at (0,1.5) {$F$};
+- **Description**: Positive metal ions are surrounded by a **sea of delocalized electrons**.
+- **Example**: $Cu$ (copper), $Fe$ (iron), $Al$ (aluminium).
+- **Strength**: Strong.
+- **Properties**: High electrical and thermal conductivity, malleable and ductile.
 
-  % Brinell Hardness Number (BHN) Formula
-  \node[below] at (0,-3) {
-    $\text{BHN} = \frac{2P}{\pi D (D - \sqrt{D^2 - d^2})}$
-  };
+### Hydrogen Bonding (Intermolecular Bonding)
 
-  % Annotations
-  \node[left] at (-1.5,0) {Indenter (Ball)};
-  \node[right] at (1.5,-2) {Indentation};
-  %\node[left] at (-1.5,-2) {Material};
+- **Description**: A weak attraction between a hydrogen atom (bonded to $N$, $O$, or $F$) and another electronegative atom.
+- **Example**: $H_2O$ (water), DNA base pairing.
+- **Strength**: Weaker than covalent/ionic bonds but stronger than Van der Waals forces.
+- **Properties**: Raises boiling/melting points, important in biological molecules.
 
-\end{tikzpicture}
-\end{document}
-```
+### Van der Waals Forces (Intermolecular Forces)
 
-where;
-$P$ is the force in Kilograms,
-$D$ is the diameter of the sphere in Millimetres,
-and $d$ is the diameter of the indent in Millimetres.
+- **Description**: Weak, temporary attractions between molecules due to fluctuating electron distributions.
+- **Example**: Noble gases (like $Ar$, $Ne$), nonpolar molecules (like $CH_{4}$).
+- **Strength**: Weakest.
+- **Properties**: Low boiling/melting points, significant in gases and molecular crystals.
