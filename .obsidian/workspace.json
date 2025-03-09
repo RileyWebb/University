@@ -49,7 +49,8 @@
               "title": "Stress, Strain and Pressure"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,13 +182,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Atomic Structure and Bonding.md",
+                "file": "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Iron and steel and heat treatment.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Atomic Structure and Bonding"
+              "title": "Outline of Iron and steel and heat treatment"
             }
           },
           {
@@ -248,10 +249,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "bbd7d4733ca05d83",
+  "active": "4f061396f58a14c3",
   "lastOpenFiles": [
-    "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Iron and steel and heat treatment.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Atomic Structure and Bonding.md",
+    "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Iron and steel and heat treatment.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Assignments/Tutorial 4.md",
     "2025 - Semester 1/PROC2097 - Engineering Materials/Notes/Stress, Strain and Pressure.md",
     "Untitled.md",
