@@ -31,7 +31,7 @@ $\text{CSA}=0.3\cdot0.3= 0.09\text{ m}^2$
 
 $F_{max}=34.5\cdot10^6\cdot0.09=3.105\cdot10^{6}\text{ N}$
 
-$F_{safe}=\dfrac{3.105\cdot10^6}{1.2}= ⚡2.5875\cdot10^6\text{ N}$
+$F_{safe}=\dfrac{3.105\cdot10^6}{1.2}=2.5875\cdot10^6\text{ N}$
 
 ### Question 7:
 > A nylon string has a diameter of 2 mm, pulled by a force of 100 N. Determine the stress.
