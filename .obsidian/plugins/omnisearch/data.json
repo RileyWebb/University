@@ -7,7 +7,7 @@
   "ignoreArabicDiacritics": false,
   "indexedFileTypes": [],
   "displayTitle": "",
-  "PDFIndexing": true,
+  "PDFIndexing": false,
   "officeIndexing": false,
   "imagesIndexing": false,
   "aiImageIndexing": false,
