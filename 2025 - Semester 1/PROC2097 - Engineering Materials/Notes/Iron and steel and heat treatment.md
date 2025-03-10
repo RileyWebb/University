@@ -12,21 +12,33 @@
 - Steel (between 0.25-2% carbon content)
 - Wrought Iron (less than 0.25% carbon content)
 
-### Phases of Metal:
-#metallurgy
+# Annealing
+---
+#metallurgy #AI 
 
-| Phase            | State      | Structure          | Ductility/Hardness              | Example                    |
-| ---------------- | ---------- | ------------------ | ------------------------------- | -------------------------- |
-| Liquid           | Molten     | No structure       | Flows freely                    | Molten Iron                |
-| Alpha (α)        | Solid      | BCC                | Soft, Ductile                   | Ferrite in Steel           |
-| Beta (β)         | Solid      | BCC                | Harder than α                   | Brass (Cu-Zn)              |
-| Austenite (γ)    | Solid      | FCC                | Ductile, High Carbon Solubility | Steel at High Temperatures |
-| Cementite (Fe₃C) | Solid      | Complex            | Very Hard, Brittle              | Iron-Carbon Alloy          |
-| Eutectic Point   | Transition | Liquid → 2 Solids  | -                               | Pb-Sn, Iron-Carbon         |
-| Eutectoid Point  | Transition | 1 Solid → 2 Solids | -                               | Pearlite in Steel          |
+**Annealing** is a heat treatment process used in materials science and metallurgy to alter the properties of a material, usually to reduce hardness, increase ductility, and relieve internal stresses. The process typically involves three main stages:
 
-**Annealing:**
-#metallurgy
+1. **Heating** – The material is heated to a specific temperature, usually above its recrystallization temperature, to allow atomic diffusion and structural changes.
+2. **Soaking** – The material is held at this temperature for a period of time to ensure uniform heat distribution and transformation.
+3. **Cooling** – The material is slowly cooled, often in a furnace, to allow the formation of a more stable microstructure.
+
+### Types of Annealing:
+
+- **Full Annealing** – Used to achieve the softest and most ductile state, often for steels.
+- **Process Annealing** – A partial annealing method to restore ductility after cold working.
+- **Stress Relief Annealing** – Reduces internal stresses without significantly altering the material’s structure.
+- **Recrystallization Annealing** – Removes work hardening effects without changing grain size significantly.
+- **Spheroidizing Annealing** – Used in steels to form spherical carbide structures, improving machinability.
+
+### Applications:
+
+- Used in metalworking to improve machinability and formability.
+- In glass and ceramics to reduce internal stresses and prevent cracking.
+- In semiconductor manufacturing to modify electrical properties.
+
+In **computing and optimization**, annealing is also used metaphorically in **simulated annealing**, an algorithm that mimics the physical annealing process to find optimal solutions in complex problem spaces.
+
+### Visualisation:
 
 ```tikz
 \usepackage{tikz}
@@ -63,8 +75,26 @@
 
 ```
 
-### Magnetisation:
-#metallurgy
+# Magnetisation
+---
+#metallurgy #AI
+
+- **Below the Curie Temperature ($T<T_{C}$​) → Ferromagnetic State**
+    - Magnetic domains (regions of aligned atomic magnetic moments) are well-organized, creating strong magnetization.
+    - The material exhibits strong magnetic properties, meaning it can attract or be permanently magnetized.
+    
+- **At the Curie Temperature ($T=T_{C}$​) → Phase Transition**
+    - Thermal energy increases, causing domain alignment to break down.
+    - Magnetization decreases rapidly as atomic moments become disordered.
+    - The material transitions from a ferromagnetic to a paramagnetic state.
+    
+- **Above the Curie Temperature ($T>T_{C}$​) → Paramagnetic State**
+    - Magnetic moments are randomly oriented due to high thermal agitation.
+    - The material no longer retains permanent magnetism but can still be weakly magnetized in an external magnetic field.
+    - Magnetization follows the **Curie-Weiss Law**, where susceptibility $\chi$ is inversely proportional to temperature:
+
+### Visualisation:
+
 ```tikz
 \usepackage{tikz}
 
@@ -92,6 +122,19 @@
 
 ```
 
+# Phases of Carbon Steel
+---
+
+| Phase            | State      | Structure          | Ductility/Hardness              | Example                    |
+| ---------------- | ---------- | ------------------ | ------------------------------- | -------------------------- |
+| Liquid           | Molten     | No structure       | Flows freely                    | Molten Iron                |
+| Alpha (α)        | Solid      | BCC                | Soft, Ductile                   | Ferrite in Steel           |
+| Beta (β)         | Solid      | BCC                | Harder than α                   | Brass (Cu-Zn)              |
+| Austenite (γ)    | Solid      | FCC                | Ductile, High Carbon Solubility | Steel at High Temperatures |
+| Cementite (Fe₃C) | Solid      | Complex            | Very Hard, Brittle              | Iron-Carbon Alloy          |
+| Eutectic Point   | Transition | Liquid → 2 Solids  | -                               | Pb-Sn, Iron-Carbon         |
+| Eutectoid Point  | Transition | 1 Solid → 2 Solids | -                               | Pearlite in Steel          |
+### Visualisation:
 ```tikz
 \begin{document}
 \begin{tikzpicture}[scale=1.2]
@@ -147,6 +190,8 @@
 \end{tikzpicture}
 \end{document}
 ```
+
+
 
 # Brinell Hardness Number:
 
